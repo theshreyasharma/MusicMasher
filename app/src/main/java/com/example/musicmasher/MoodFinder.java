@@ -1,6 +1,9 @@
 package com.example.musicmasher;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 
@@ -23,5 +26,17 @@ public class MoodFinder extends AppCompatActivity {
 
         autoCompleteTextView.setText(arrayAdapter.getItem(0).toString(), false);
         autoCompleteTextView.setAdapter(arrayAdapter);
+
+
+        final String[] selection = new String[1];
+        autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long rowId) {
+                 selection[0] = (String)parent.getItemAtPosition(position);
+
+            }
+        });
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("MOOD", selection[0]);
+        startActivity(intent);
     }
 }

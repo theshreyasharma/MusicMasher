@@ -25,6 +25,9 @@ public final class MoodFinderBinding implements ViewBinding {
   public final AutoCompleteTextView autoCompleteText;
 
   @NonNull
+  public final Button button3;
+
+  @NonNull
   public final Button profile;
 
   @NonNull
@@ -34,10 +37,11 @@ public final class MoodFinderBinding implements ViewBinding {
   public final TextView textView5;
 
   private MoodFinderBinding(@NonNull FrameLayout rootView,
-      @NonNull AutoCompleteTextView autoCompleteText, @NonNull Button profile,
-      @NonNull TextView textView4, @NonNull TextView textView5) {
+      @NonNull AutoCompleteTextView autoCompleteText, @NonNull Button button3,
+      @NonNull Button profile, @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
     this.autoCompleteText = autoCompleteText;
+    this.button3 = button3;
     this.profile = profile;
     this.textView4 = textView4;
     this.textView5 = textView5;
@@ -76,6 +80,12 @@ public final class MoodFinderBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.button3;
+      Button button3 = ViewBindings.findChildViewById(rootView, id);
+      if (button3 == null) {
+        break missingId;
+      }
+
       id = R.id.profile;
       Button profile = ViewBindings.findChildViewById(rootView, id);
       if (profile == null) {
@@ -94,8 +104,8 @@ public final class MoodFinderBinding implements ViewBinding {
         break missingId;
       }
 
-      return new MoodFinderBinding((FrameLayout) rootView, autoCompleteText, profile, textView4,
-          textView5);
+      return new MoodFinderBinding((FrameLayout) rootView, autoCompleteText, button3, profile,
+          textView4, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

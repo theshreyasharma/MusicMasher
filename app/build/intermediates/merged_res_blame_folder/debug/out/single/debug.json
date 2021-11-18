@@ -4,12 +4,12 @@
         "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-mdpi_caret_right_svgrepo_com.png.flat",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-mdpi/caret_right_svgrepo_com.png"
-    },
-    {
         "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_caret_right_pngrepo_com.png.flat",
         "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/caret_right_pngrepo_com.png"
+    },
+    {
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-mdpi_caret_right_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-mdpi/caret_right_svgrepo_com.png"
     },
     {
         "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-hdpi_caret_right_svgrepo_com.png.flat",

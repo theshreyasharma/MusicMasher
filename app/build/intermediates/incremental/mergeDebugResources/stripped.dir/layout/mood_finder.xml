@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_alignParentLeft="true">
 
     <LinearLayout
@@ -13,11 +13,11 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/profile5"
+                android:id="@+id/profile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00FFFFFF"
@@ -34,39 +34,56 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:gravity="center"
                 android:padding="40dp"
-                android:text="Drake x Kanye West"
+                android:text="Mood Finder"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="34sp" />
 
-            <EditText
-                android:id="@+id/editTextTextMultiLine"
+            <TextView
+                android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine" />
+                android:fontFamily="sans-serif-light"
+                android:padding="20dp"
+                android:text="How are you feeling?"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select mood">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:inputType="none"
+                    android:textColor="#000" />
+            </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="#00F87575"
-                android:drawableRight="@drawable/export_svgrepo_com"
-                android:text="link to playlist"
-                android:textAlignment="center"
+                android:drawableRight="@drawable/caret_right_svgrepo_com"
+                android:gravity="center"
+                android:text="update mood"
                 android:textAllCaps="false"
                 android:textColor="#000000" />
 
-        </LinearLayout>
 
+
+        </LinearLayout>
     </LinearLayout>
 
 </FrameLayout>

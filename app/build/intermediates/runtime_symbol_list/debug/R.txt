@@ -1819,6 +1819,7 @@ int id blocking 0x7f08005a
 int id bottom 0x7f08005b
 int id bounce 0x7f08005c
 int id button 0x7f08005d
+int id button3 0x7f0801b6
 int id buttonPanel 0x7f08005e
 int id button_first 0x7f08005f
 int id button_second 0x7f080060
