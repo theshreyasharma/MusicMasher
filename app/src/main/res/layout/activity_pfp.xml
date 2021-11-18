@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:textSize="48sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/current_mood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Mood: [Var]"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_below="@id/username"/>
+
+    <LinearLayout
+        android:id="@+id/button_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/current_mood"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="24dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/mood_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.5"
+            android:text="@string/mood_button_text" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/mash_button_text" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/recap_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weekly Recap"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/button_group"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recap_heading"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+            <ListView
+                android:id="@+id/recap_list"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+            </ListView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/listening_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recap_list"
+                android:layout_centerHorizontal="true"
+                android:text="listening history"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
