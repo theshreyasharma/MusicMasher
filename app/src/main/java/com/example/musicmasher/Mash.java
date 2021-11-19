@@ -2,6 +2,7 @@ package com.example.musicmasher;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -22,6 +23,7 @@ public class Mash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mash);
+
     }
 
 
@@ -58,6 +60,15 @@ public class Mash extends AppCompatActivity {
         artist.setText(artistList[pickRandomNum]);
 
     }
+
+
+
+
+    public void onClickProfile(View view) {
+            Intent intent = new Intent(view.getContext(), PFPActivity.class);
+            startActivity(intent);
+        }
+
     public void mashMe(View view) {
 
         Button masher = (Button) findViewById(R.id.button);
@@ -92,6 +103,10 @@ public class Mash extends AppCompatActivity {
         // NEED to test to determine if uniquekeylol needs to be const global
         // probably does, but thats something for next time.
         Bundle passMashed=new Bundle();
+
+
+
+
         //passMashed.putStringArray("UNIQUEKEYLOL", result);
         // Intent i=new Intent(this, MainActivity.class);
         // i.putExtras(passMashed);
@@ -104,6 +119,9 @@ public class Mash extends AppCompatActivity {
 
 
     }
+
+
+
 
     public void checkBoxFunction(View view) {
         boolean mood = true;
