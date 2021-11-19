@@ -35,6 +35,7 @@ public class PFPActivity extends AppCompatActivity {
         //populate recap list w/ hardcoded data
         lv = findViewById(R.id.recap_list);
         ArrayAdapter<String> lv_arr;
+
         lv_arr = new ArrayAdapter<>(
                     this,
                            R.layout.support_simple_spinner_dropdown_item,
