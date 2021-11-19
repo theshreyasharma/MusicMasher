@@ -38,6 +38,7 @@
             android:text="@string/mood_button_text" />
 
         <Button
+            android:id="@+id/mash_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.5"

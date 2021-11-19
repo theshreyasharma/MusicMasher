@@ -14,11 +14,22 @@
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MusicMasher.NoActionBar">
+        </activity>
+        <activity
+            android:name=".PFPActivity"
+            android:exported="true"
+            android:label="Profile Page"
+            android:theme="@style/Theme.MusicMasher.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mash"
+            android:exported="true"
+            android:label="Masher"
+            android:theme="@style/Theme.MusicMasher.NoActionBar">
         </activity>
     </application>
 
