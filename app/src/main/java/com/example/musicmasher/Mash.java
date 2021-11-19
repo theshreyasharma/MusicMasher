@@ -24,12 +24,25 @@ public class Mash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mash);
 
-
+//        Button mashButton = findViewById(R.id.button);
+//        mashButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(view.getContext(), PlaylistGenerated.class);
+//                intent.putExtra("MOOD", getIntent().getStringExtra("MOOD"));
+//                startActivity(intent);
+//            }
+//        });
+        if (getIntent().getStringExtra("MOOD") != null) {
+            updateCurrentMoodString(true);
+        } else {
+            updateCurrentMoodString(false);
+        }
 
     }
 
 
-    public void updateCurrentMoodString(View view, boolean mood) {
+    public void updateCurrentMoodString(boolean mood) {
         //does something cuz otherwise nothing
 
         Bundle b=this.getIntent().getExtras();
@@ -105,11 +118,11 @@ public class Mash extends AppCompatActivity {
 
 
 
-        //Bundle passMashed=new Bundle();
-        //i.putExtras(passMashed);
-        // passMashed.putStringArrayList("MashedList",result );
-        //Intent passToNewPage = new Intent(this, NEW_PAGE);
-        //startActivity(passToNewPage);
+        Bundle passMashed=new Bundle();
+//        i.putExtras(passMashed);
+//         passMashed.putStringArrayList("MashedList",result );
+        Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
+        startActivity(passToNewPage);
 
 
 
@@ -127,7 +140,7 @@ public class Mash extends AppCompatActivity {
         boolean mood = true;
         CheckBox cb1 = (CheckBox) findViewById(R.id.checkBox);
         mood = cb1.isChecked() ? false: true;
-        updateCurrentMoodString(view, mood);
+        updateCurrentMoodString(mood);
 
         System.out.println(mood);
 

@@ -39,6 +39,13 @@
             android:theme="@style/Theme.MusicMasher.NoActionBar">
         </activity>
 
+        <activity
+            android:name=".PlaylistGenerated"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MusicMasher.NoActionBar">
+        </activity>
+
     </application>
 
 </manifest>

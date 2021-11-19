@@ -25,7 +25,7 @@ public class PFPActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pfp);
         //get mood string
         Intent intent = getIntent();
-        String mood = "none";
+        String mood = "None";
         if(getIntent().getExtras() != null) {
             mood = intent.getStringExtra("MOOD");
         }
@@ -43,15 +43,17 @@ public class PFPActivity extends AppCompatActivity {
         //link mash, mood, listening history buttons to activities
         Button moodButton = findViewById(R.id.mood_button);
         Button mashButton = findViewById(R.id.mash_button);
+        String finalMood = mood;
         moodButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), MoodFinder.class);
+                intent.putExtra("MOOD", finalMood);
                 startActivity(intent);
             }
         });
 
-        String finalMood = mood;
+
         mashButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

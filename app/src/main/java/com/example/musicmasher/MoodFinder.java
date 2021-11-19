@@ -24,7 +24,7 @@ public class MoodFinder extends AppCompatActivity {
         String options[] = {"Sad", "Upbeat", "Angry", "Confident"};
         ArrayAdapter arrayAdapter = new ArrayAdapter(this, R.layout.option_item, options);
 
-        autoCompleteTextView.setText(arrayAdapter.getItem(0).toString(), false);
+        autoCompleteTextView.setText("", false);
         autoCompleteTextView.setAdapter(arrayAdapter);
 
 
@@ -51,6 +51,7 @@ public class MoodFinder extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), PFPActivity.class);
+                intent.putExtra("MOOD", getIntent().getStringExtra("MOOD"));
                 startActivity(intent);
             }
         });
