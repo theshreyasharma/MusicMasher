@@ -11,8 +11,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.lang.reflect.Array;
-
 public class MoodFinder extends AppCompatActivity {
     AutoCompleteTextView autoCompleteTextView;
 
@@ -42,8 +40,17 @@ public class MoodFinder extends AppCompatActivity {
         updateMoodButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), MainActivity.class);
+                Intent intent = new Intent(view.getContext(), PFPActivity.class);
                 intent.putExtra("MOOD", selection[0]);
+                startActivity(intent);
+            }
+        });
+
+        Button profileButton = findViewById(R.id.profile);
+        profileButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), PFPActivity.class);
                 startActivity(intent);
             }
         });
