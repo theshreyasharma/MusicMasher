@@ -45,13 +45,10 @@
                 android:textColor="#000000"
                 android:textSize="34sp" />
 
-            <EditText
-                android:id="@+id/editTextTextMultiLine"
+            <ListView
+                android:id="@+id/playlistgenerated"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine" />
+                android:layout_height="300dp" />
 
             <Button
                 android:id="@+id/button2"

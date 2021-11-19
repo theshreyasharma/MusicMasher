@@ -1683,6 +1683,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable export_svgrepo_com
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1820,9 +1821,11 @@ id blocking
 id bottom
 id bounce
 id button
+id button2
 id button3
 id buttonPanel
 id button_first
+id button_group
 id button_second
 id cache_measures
 id cancel_button
@@ -1854,6 +1857,7 @@ id contiguous
 id coordinator
 id cos
 id counterclockwise
+id current_mood
 id custom
 id customPanel
 id cut
@@ -1946,8 +1950,11 @@ id leftToRight
 id line1
 id line3
 id linear
+id list
 id listMode
 id list_item
+id listening_history
+id mash_button
 id masked
 id material_clock_display
 id material_clock_face
@@ -1977,6 +1984,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id mood_button
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -2030,13 +2038,20 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id play
+id playlistgenerated
 id position
 id postLayout
 id profile
+id profile2
+id profile3
+id profile5
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recap_heading
+id recap_list
 id rectangles
 id reverseSawtooth
 id right
@@ -2125,6 +2140,10 @@ id textView2
 id textView3
 id textView4
 id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2157,6 +2176,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -2226,7 +2246,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main
+layout activity_pfp
 layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2246,6 +2266,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
 layout fragment_second
+layout listening_history
+layout mash
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2367,6 +2389,7 @@ string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string mash_button_text
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2382,6 +2405,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string mood_button_text
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -2429,6 +2453,7 @@ string previous
 string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
+string user_name
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

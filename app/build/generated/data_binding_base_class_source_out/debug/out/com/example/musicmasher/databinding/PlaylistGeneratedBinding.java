@@ -4,25 +4,47 @@ package com.example.musicmasher.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.ListView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.musicmasher.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class PlaylistGeneratedBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final FrameLayout rootView;
 
-  private PlaylistGeneratedBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final Button button2;
+
+  @NonNull
+  public final ListView playlistgenerated;
+
+  @NonNull
+  public final Button profile5;
+
+  @NonNull
+  public final TextView textView8;
+
+  private PlaylistGeneratedBinding(@NonNull FrameLayout rootView, @NonNull Button button2,
+      @NonNull ListView playlistgenerated, @NonNull Button profile5, @NonNull TextView textView8) {
     this.rootView = rootView;
+    this.button2 = button2;
+    this.playlistgenerated = playlistgenerated;
+    this.profile5 = profile5;
+    this.textView8 = textView8;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public FrameLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +65,38 @@ public final class PlaylistGeneratedBinding implements ViewBinding {
 
   @NonNull
   public static PlaylistGeneratedBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.button2;
+      Button button2 = ViewBindings.findChildViewById(rootView, id);
+      if (button2 == null) {
+        break missingId;
+      }
 
-    return new PlaylistGeneratedBinding((ConstraintLayout) rootView);
+      id = R.id.playlistgenerated;
+      ListView playlistgenerated = ViewBindings.findChildViewById(rootView, id);
+      if (playlistgenerated == null) {
+        break missingId;
+      }
+
+      id = R.id.profile5;
+      Button profile5 = ViewBindings.findChildViewById(rootView, id);
+      if (profile5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView8;
+      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
+      if (textView8 == null) {
+        break missingId;
+      }
+
+      return new PlaylistGeneratedBinding((FrameLayout) rootView, button2, playlistgenerated,
+          profile5, textView8);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

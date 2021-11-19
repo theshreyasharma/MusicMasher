@@ -61,5 +61,15 @@ public class PFPActivity extends AppCompatActivity {
             }
         });
 
+        Button listeningHistory = findViewById(R.id.listening_history);
+        listeningHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), ListeningHistory.class);
+                intent.putExtra("MOOD", finalMood);
+                startActivity(intent);
+            }
+        });
+
     }
 }

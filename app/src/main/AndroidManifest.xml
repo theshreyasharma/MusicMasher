@@ -18,7 +18,7 @@
         <activity
             android:name=".PFPActivity"
             android:exported="true"
-            android:label="Profile Page"
+            android:label="@string/app_name"
             android:theme="@style/Theme.MusicMasher.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,6 +31,14 @@
             android:label="Masher"
             android:theme="@style/Theme.MusicMasher.NoActionBar">
         </activity>
+
+        <activity
+            android:name=".ListeningHistory"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MusicMasher.NoActionBar">
+        </activity>
+
     </application>
 
 </manifest>
