@@ -24,12 +24,19 @@ public class Mash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mash);
 
+
+
     }
 
 
     public void updateCurrentMoodString(View view, boolean mood) {
         //does something cuz otherwise nothing
-        String currentMood = "Happy";
+
+        Bundle b=this.getIntent().getExtras();
+        String currentMood =b.getString("MOOD");
+
+
+
         String message = mood ? "Current Mood: "+currentMood : "No Current Mood";
         TextView currentMood2 = (TextView) findViewById(R.id.textView3);
         if (mood)
@@ -39,7 +46,7 @@ public class Mash extends AppCompatActivity {
             currentMood2.setText(message);
         }
         else {
-            currentMood2.setTextSize(29);
+            currentMood2.setTextSize(25);
             currentMood2.setText(message);
         }
     }
@@ -94,31 +101,24 @@ public class Mash extends AppCompatActivity {
 
         TextView editoral = (TextView) findViewById(R.id.textView4);
         editoral.setText(wow);
-        //felt like comments are needed here
-        //Builds a new intent to pass onto the new page.
-        // adds payload to the intent with the result string which is a mashing of
-        // the songs of the artist, and then starts the avtivity
-        // the new activity should be called 'MasherResult' --> someone has to create this.
-
-        // NEED to test to determine if uniquekeylol needs to be const global
-        // probably does, but thats something for next time.
-        Bundle passMashed=new Bundle();
 
 
 
 
-        //passMashed.putStringArray("UNIQUEKEYLOL", result);
-        // Intent i=new Intent(this, MainActivity.class);
-        // i.putExtras(passMashed);
-        //   startActivity(i); // moves to masherresult page.
-        /* This is how to read it from the masherresult page
-        Bundle b=this.getIntent().getExtras();
-        String[] array=b.getStringArray(UNIQUEKEYLOL);
+        //Bundle passMashed=new Bundle();
+        //i.putExtras(passMashed);
+        // passMashed.putStringArrayList("MashedList",result );
+        //Intent passToNewPage = new Intent(this, NEW_PAGE);
+        //startActivity(passToNewPage);
 
-         */
+
+
 
 
     }
+
+
+
 
 
 
