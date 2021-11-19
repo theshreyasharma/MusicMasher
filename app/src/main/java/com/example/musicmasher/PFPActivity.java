@@ -25,9 +25,10 @@ public class PFPActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pfp);
         //get mood string
         Intent intent = getIntent();
+        Bundle extras = intent.getExtras();
         String mood = "none";
-        if(getIntent().getExtras() != null) {
-            mood = intent.getStringExtra("mood");
+        if(extras != null) {
+            mood = extras.getString("MOOD");
         }
         //set current Mood text
         TextView currentMood = findViewById(R.id.current_mood);
