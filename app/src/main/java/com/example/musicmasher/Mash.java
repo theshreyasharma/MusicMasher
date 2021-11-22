@@ -6,9 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -24,6 +27,9 @@ public class Mash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mash);
 
+        //some hacky stuff
+        ImageView imageRounded= (ImageView) findViewById(R.id.imageLeft);
+                imageRounded.setClipToOutline(true);
 //        Button mashButton = findViewById(R.id.button);
 //        mashButton.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -39,6 +45,20 @@ public class Mash extends AppCompatActivity {
             updateCurrentMoodString(false);
         }
 
+
+        // Get a reference to the AutoCompleteTextView in the layout
+        AutoCompleteTextView textView = (AutoCompleteTextView) findViewById(R.id.editTextTextPersonName);
+        String[] artists = getResources().getStringArray(R.array.artist_array);
+        ArrayAdapter<String> adapter =
+                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, artists);
+        textView.setAdapter(adapter);
+
+
+        AutoCompleteTextView textView2 = (AutoCompleteTextView) findViewById(R.id.editTextTextPersonName2);
+        String[] artists2 = getResources().getStringArray(R.array.artist_array);
+        ArrayAdapter<String> adapter2 =
+                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, artists2);
+        textView2.setAdapter(adapter2);
     }
 
 
@@ -91,17 +111,23 @@ public class Mash extends AppCompatActivity {
 
     public void mashMe(View view) {
 
-        Button masher = (Button) findViewById(R.id.button);
         HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
-        //terrible idea loool, someone else fill out this arraylist
         map.put("Drake", new ArrayList<String>(
                 Arrays.asList("DrakeSong1", "DrakeSong2")));
         map.put("Kanye", new ArrayList<String>(
                 Arrays.asList("KanyeSong1", "KanyeSong2")));
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName2);
         EditText artist1 = (EditText) findViewById(R.id.editTextTextPersonName);
-        ArrayList<String> songs1 = map.get(artist.getText().toString());
-        ArrayList<String> songs2 = map.get(artist1.getText().toString());
+        Log.d("artist", artist.getText().toString());
+
+        ArrayList<String> songs1 = null;
+        ArrayList<String> songs2 = null;
+
+        if(map.containsKey(artist.getText().toString())&& map.containsKey(artist1.getText().toString()))
+        {
+
+             songs1 = map.get(artist.getText().toString());
+             songs2 = map.get(artist1.getText().toString());        }
         ArrayList<String> result = new ArrayList<String>();
         int bound = Math.min(songs1.size(), songs2.size());
         for(int i = 0; i<bound; i++)
@@ -112,8 +138,6 @@ public class Mash extends AppCompatActivity {
         String wow = result.toString();
         Log.d("myTag", wow);
 
-        TextView editoral = (TextView) findViewById(R.id.textView4);
-        editoral.setText(wow);
 
 
 

@@ -65,6 +65,7 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array artist_array
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1677,6 +1678,9 @@ drawable caret_left_pngrepo_com
 drawable caret_left_svgrepo_com
 drawable caret_right_pngrepo_com
 drawable caret_right_svgrepo_com
+drawable cropped
+drawable croppedrot
+drawable darwin
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1692,6 +1696,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable imgg
+drawable ja
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1724,9 +1730,17 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable roundedentry
+drawable roundedimage
+drawable shuffle
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font blackfont
+font montbold
+font montfamily
+font montlight
+font montreg
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1932,8 +1946,11 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton2
 id imageButton4
-id imageButton6
+id imageLeft
+id imageLeft2
+id imageRightMost
 id info
 id invisible
 id inward
