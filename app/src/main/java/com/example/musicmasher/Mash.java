@@ -120,6 +120,7 @@ public class Mash extends AppCompatActivity {
         EditText artist1 = (EditText) findViewById(R.id.editTextTextPersonName);
         Log.d("artist", artist.getText().toString());
 
+        //Testing git ignore, why is it bugging out
         ArrayList<String> songs1 = null;
         ArrayList<String> songs2 = null;
 
