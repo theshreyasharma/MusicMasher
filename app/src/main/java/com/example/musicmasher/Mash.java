@@ -120,7 +120,7 @@ public class Mash extends AppCompatActivity {
                         }
                     })
                     .setNegativeButton(android.R.string.no, null)
-                    .setIcon(android.R.drawable.ic_dialog_alergit)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
                     .show();
         }
     }
