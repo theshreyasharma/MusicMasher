@@ -1,7 +1,9 @@
 package com.example.musicmasher;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -92,21 +94,42 @@ public class Mash extends AppCompatActivity {
             songs1 = map.get(artist.getText().toString());
             songs2 = map.get(artist1.getText().toString());
 
+
             ArrayList<String> result = new ArrayList<String>();
             int bound = Math.min(songs1.size(), songs2.size());
             for (int i = 0; i < bound; i++) {
                 result.add(songs1.get(i) + "x" + songs2.get(i));
 
             }
+
+
             String wow = result.toString();
             Bundle passMashed = new Bundle();
             Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
             startActivity(passToNewPage);
         }
+        else
+        {
+            new AlertDialog.Builder(this)
+                    .setTitle("Error: Artist(s) not found")
+                    .setMessage("Masher does not have data for one or more of the artists you entered. \n" +
+                            "Try using the default ones!")
+                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                        //idk maybe we autopopultate?
+                        }
+                    })
+                    .setNegativeButton(android.R.string.no, null)
+                    .setIcon(android.R.drawable.ic_dialog_alergit)
+                    .show();
+        }
     }
+
     public void checkBoxFunction(View view) {
         boolean mood = true;
         CheckBox cb1 = (CheckBox) findViewById(R.id.checkBox);
         mood = cb1.isChecked() ? false: true;
         updateCurrentMoodString(mood);
+
+
     }}
