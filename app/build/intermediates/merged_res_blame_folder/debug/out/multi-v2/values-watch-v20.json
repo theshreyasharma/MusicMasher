@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/rajpandit/.gradle/caches/transforms-3/5e3dedeeb33629e035b7298c8855d952/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/shreyasharma/.gradle/caches/transforms-3/5e3dedeeb33629e035b7298c8855d952/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

@@ -87,18 +87,18 @@ public class Mash extends AppCompatActivity {
          */
         map.put("drake", new ArrayList<String>(
                 Arrays.asList("God's Plan", "Way 2 Sexy", "Toosie Slide", "Know Yourself", "One Dance", "Laugh Now Cry Later")));
-        map.put("kanye", new ArrayList<String>(
+        map.put("kanye west", new ArrayList<String>(
                 Arrays.asList("Praise God", "Flashing Lights", "Off the Grid", "Heartless")));
         map.put("taylor swift", new ArrayList<String>(
                 Arrays.asList("Blank Space", "Look What You Made Me Do", "You Belong With Me", "Bad Blood")));
         map.put("ariana grande", new ArrayList<String>(
                 Arrays.asList("Thank you next", "God Is a Woman", "Rain on Me", "Bang Bang")));
-        map.put("justin beiber", new ArrayList<String>(
+        map.put("justin bieber", new ArrayList<String>(
                 Arrays.asList("Baby", "Holy", "STAY", "LONELY", "Love Yourself ", "Mood")));
         map.put("adele", new ArrayList<String>(
                 Arrays.asList("Easy on Me", "Rolling in the Deep", "Someone Like You", "Send My Love", "Set Fire to the Rain")));
         map.put("mariah carey", new ArrayList<String>(
-                Arrays.asList("All I want for Christmas is raj pandit", "We Belong Together", "Without You", "Always be My Baby", "Obsessed")));
+                Arrays.asList("All I want for Christmas is You", "We Belong Together", "Without You", "Always be My Baby", "Obsessed")));
         map.put("madonna", new ArrayList<String>(
                 Arrays.asList("Hung up", "Frozen ", "Hung up", "The Power of Goodbye")));
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName2);

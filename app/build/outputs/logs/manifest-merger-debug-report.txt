@@ -1,238 +1,244 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:1-51:12
-MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/rajpandit/.gradle/caches/transforms-3/654753a7e2a29602b4aff004a1442fbe/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/2ae65385ad831d6f0131f81db0ad123d/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.3.0] /Users/rajpandit/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/rajpandit/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/rajpandit/.gradle/caches/transforms-3/5e3dedeeb33629e035b7298c8855d952/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/c8c2df458786835e2476cefee25afb56/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/e5d65527964934574726ff657a1705c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/rajpandit/.gradle/caches/transforms-3/6e5c2dab24c2070a24a0c97df2ed4700/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/3cb107bf751ad21d7907f4223a904884/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/2f306a7d23999224005926d96f2c07ac/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/b857afdc47b07affe66ad0787ff8898e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/441a39e3e6c041862a7fa9cf5fd0c5ed/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/823f98db1c3d9c45fdb57c6ee9bf2124/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/84979a5a763d1e5e0faec29d618e4be7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.2.4] /Users/rajpandit/.gradle/caches/transforms-3/de86ef27dc89aef46b9f87fc28bbf3ba/transformed/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/rajpandit/.gradle/caches/transforms-3/ab9d7f37c281fbc5b73b7797526f61c5/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.3.0] /Users/rajpandit/.gradle/caches/transforms-3/adcd65a8230c0d4119179c64b81915e3/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/01d0c5965d3f59f89b729693f7c13d58/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/633c86b61bf55ee5f366deca74d14bbc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/b20c338f9d036fe10fa6e6397cbb92c0/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/8b5d69cb2a6e1629f42b49ca4f8693b1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/91d348ceb61ca3668a42cbeb4fd16a77/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/86bcfe8fbe0e7651394473a504f63926/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/68e810420ae228f2e9c27c2e29822731/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/f354c93cb96f9ad801b22260827e087a/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.3.1] /Users/rajpandit/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/622180711158a7d9f8edb2e03e8e7a71/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/d5364e0ba6b761a466bd7c663ad1735f/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/f6050513bd7bba2787ed27a096855a20/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/1449e957b284d47556dd1fd27b568697/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/643dcff414f1c6f9ab18c8afb84f0242/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/a7d5b3ed5cfe58ebdcab1fbd9bc9eaf7/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/1768df8f25d2624e529709e8abc08b1e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/e320d64c96c34f7ef40dc166f5179e24/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rajpandit/.gradle/caches/transforms-3/44a4f8c9390a5e8a96d45b5794adf77b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/5746f4b873476971c9f1a280007a3a89/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rajpandit/.gradle/caches/transforms-3/47d21f64b86627830c487cfebdcf7596/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/b734609b14fbff4f0c04a29dca468472/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:1-51:12
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:1-55:12
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/shreyasharma/.gradle/caches/transforms-3/654753a7e2a29602b4aff004a1442fbe/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/2ae65385ad831d6f0131f81db0ad123d/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/shreyasharma/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/shreyasharma/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/5e3dedeeb33629e035b7298c8855d952/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/c8c2df458786835e2476cefee25afb56/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/e5d65527964934574726ff657a1705c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/6e5c2dab24c2070a24a0c97df2ed4700/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/3cb107bf751ad21d7907f4223a904884/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/2f306a7d23999224005926d96f2c07ac/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/b857afdc47b07affe66ad0787ff8898e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/441a39e3e6c041862a7fa9cf5fd0c5ed/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/823f98db1c3d9c45fdb57c6ee9bf2124/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/84979a5a763d1e5e0faec29d618e4be7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/shreyasharma/.gradle/caches/transforms-3/de86ef27dc89aef46b9f87fc28bbf3ba/transformed/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/shreyasharma/.gradle/caches/transforms-3/ab9d7f37c281fbc5b73b7797526f61c5/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/shreyasharma/.gradle/caches/transforms-3/adcd65a8230c0d4119179c64b81915e3/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/01d0c5965d3f59f89b729693f7c13d58/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/633c86b61bf55ee5f366deca74d14bbc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/b20c338f9d036fe10fa6e6397cbb92c0/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/8b5d69cb2a6e1629f42b49ca4f8693b1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/91d348ceb61ca3668a42cbeb4fd16a77/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/86bcfe8fbe0e7651394473a504f63926/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/68e810420ae228f2e9c27c2e29822731/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/f354c93cb96f9ad801b22260827e087a/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] /Users/shreyasharma/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/622180711158a7d9f8edb2e03e8e7a71/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/d5364e0ba6b761a466bd7c663ad1735f/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/f6050513bd7bba2787ed27a096855a20/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/1449e957b284d47556dd1fd27b568697/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/643dcff414f1c6f9ab18c8afb84f0242/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/a7d5b3ed5cfe58ebdcab1fbd9bc9eaf7/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/1768df8f25d2624e529709e8abc08b1e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/e320d64c96c34f7ef40dc166f5179e24/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/44a4f8c9390a5e8a96d45b5794adf77b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/5746f4b873476971c9f1a280007a3a89/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/47d21f64b86627830c487cfebdcf7596/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/b734609b14fbff4f0c04a29dca468472/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:3:5-38
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:1-51:12
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:1-55:12
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:1-51:12
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:1-55:12
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:5:5-49:19
-MERGED from [com.google.android.material:material:1.3.0] /Users/rajpandit/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.3.0] /Users/rajpandit/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/rajpandit/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/rajpandit/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.3.1] /Users/rajpandit/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.1] /Users/rajpandit/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:5:5-53:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/shreyasharma/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/shreyasharma/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/shreyasharma/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/shreyasharma/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] /Users/shreyasharma/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/shreyasharma/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.1] /Users/rajpandit/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.1] /Users/shreyasharma/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:11:9-49
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:11:9-49
 activity#com.example.musicmasher.MoodFinder
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:12:9-17:20
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:12:9-17:20
 	android:label
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:15:13-45
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:15:13-45
 	android:exported
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:14:13-36
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:14:13-36
 	android:theme
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:16:13-65
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:16:13-65
 	android:name
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:13:13-39
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:13:13-39
 activity#com.example.musicmasher.PFPActivity
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:18:9-27:20
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:18:9-27:20
 	android:label
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:21:13-45
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:21:13-45
 	android:exported
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:20:13-36
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:22:13-65
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:19:13-40
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:19:13-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:25:27-74
 activity#com.example.musicmasher.Mash
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:28:9-33:20
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:28:9-33:20
 	android:label
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:31:13-35
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:30:13-36
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:30:13-36
 	android:theme
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:32:13-65
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:32:13-65
 	android:name
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:29:13-33
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:29:13-33
 activity#com.example.musicmasher.ListeningHistory
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:35:9-40:20
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:35:9-40:20
 	android:label
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:38:13-45
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:38:13-45
 	android:exported
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:37:13-36
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:37:13-36
 	android:theme
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:39:13-65
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:39:13-65
 	android:name
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:36:13-45
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:36:13-45
 activity#com.example.musicmasher.PlaylistGenerated
-ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:42:9-47:20
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:42:9-47:20
 	android:label
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:45:13-45
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:45:13-45
 	android:exported
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:44:13-36
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:44:13-36
 	android:theme
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:46:13-65
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:46:13-65
 	android:name
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml:43:13-46
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:43:13-46
+meta-data#preloaded_fonts
+ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:49:9-51:57
+	android:resource
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:50:13-43
 uses-sdk
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/rajpandit/.gradle/caches/transforms-3/654753a7e2a29602b4aff004a1442fbe/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/rajpandit/.gradle/caches/transforms-3/654753a7e2a29602b4aff004a1442fbe/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/2ae65385ad831d6f0131f81db0ad123d/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/2ae65385ad831d6f0131f81db0ad123d/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.3.0] /Users/rajpandit/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.3.0] /Users/rajpandit/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/rajpandit/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/rajpandit/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/rajpandit/.gradle/caches/transforms-3/5e3dedeeb33629e035b7298c8855d952/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/rajpandit/.gradle/caches/transforms-3/5e3dedeeb33629e035b7298c8855d952/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/c8c2df458786835e2476cefee25afb56/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/c8c2df458786835e2476cefee25afb56/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/e5d65527964934574726ff657a1705c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/e5d65527964934574726ff657a1705c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/rajpandit/.gradle/caches/transforms-3/6e5c2dab24c2070a24a0c97df2ed4700/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/rajpandit/.gradle/caches/transforms-3/6e5c2dab24c2070a24a0c97df2ed4700/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/3cb107bf751ad21d7907f4223a904884/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/3cb107bf751ad21d7907f4223a904884/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/2f306a7d23999224005926d96f2c07ac/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/2f306a7d23999224005926d96f2c07ac/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/b857afdc47b07affe66ad0787ff8898e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/b857afdc47b07affe66ad0787ff8898e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/441a39e3e6c041862a7fa9cf5fd0c5ed/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/441a39e3e6c041862a7fa9cf5fd0c5ed/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/823f98db1c3d9c45fdb57c6ee9bf2124/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/823f98db1c3d9c45fdb57c6ee9bf2124/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/84979a5a763d1e5e0faec29d618e4be7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/84979a5a763d1e5e0faec29d618e4be7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.2.4] /Users/rajpandit/.gradle/caches/transforms-3/de86ef27dc89aef46b9f87fc28bbf3ba/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.4] /Users/rajpandit/.gradle/caches/transforms-3/de86ef27dc89aef46b9f87fc28bbf3ba/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/rajpandit/.gradle/caches/transforms-3/ab9d7f37c281fbc5b73b7797526f61c5/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/rajpandit/.gradle/caches/transforms-3/ab9d7f37c281fbc5b73b7797526f61c5/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] /Users/rajpandit/.gradle/caches/transforms-3/adcd65a8230c0d4119179c64b81915e3/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] /Users/rajpandit/.gradle/caches/transforms-3/adcd65a8230c0d4119179c64b81915e3/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/01d0c5965d3f59f89b729693f7c13d58/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/01d0c5965d3f59f89b729693f7c13d58/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/633c86b61bf55ee5f366deca74d14bbc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/633c86b61bf55ee5f366deca74d14bbc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/b20c338f9d036fe10fa6e6397cbb92c0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/b20c338f9d036fe10fa6e6397cbb92c0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/8b5d69cb2a6e1629f42b49ca4f8693b1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/8b5d69cb2a6e1629f42b49ca4f8693b1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/91d348ceb61ca3668a42cbeb4fd16a77/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/91d348ceb61ca3668a42cbeb4fd16a77/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/86bcfe8fbe0e7651394473a504f63926/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/86bcfe8fbe0e7651394473a504f63926/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/68e810420ae228f2e9c27c2e29822731/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/68e810420ae228f2e9c27c2e29822731/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/f354c93cb96f9ad801b22260827e087a/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/rajpandit/.gradle/caches/transforms-3/f354c93cb96f9ad801b22260827e087a/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] /Users/rajpandit/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] /Users/rajpandit/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/rajpandit/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/622180711158a7d9f8edb2e03e8e7a71/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/622180711158a7d9f8edb2e03e8e7a71/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/d5364e0ba6b761a466bd7c663ad1735f/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/d5364e0ba6b761a466bd7c663ad1735f/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/f6050513bd7bba2787ed27a096855a20/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/f6050513bd7bba2787ed27a096855a20/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/1449e957b284d47556dd1fd27b568697/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/1449e957b284d47556dd1fd27b568697/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/643dcff414f1c6f9ab18c8afb84f0242/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/643dcff414f1c6f9ab18c8afb84f0242/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/a7d5b3ed5cfe58ebdcab1fbd9bc9eaf7/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/a7d5b3ed5cfe58ebdcab1fbd9bc9eaf7/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/1768df8f25d2624e529709e8abc08b1e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/1768df8f25d2624e529709e8abc08b1e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/e320d64c96c34f7ef40dc166f5179e24/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/e320d64c96c34f7ef40dc166f5179e24/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rajpandit/.gradle/caches/transforms-3/44a4f8c9390a5e8a96d45b5794adf77b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rajpandit/.gradle/caches/transforms-3/44a4f8c9390a5e8a96d45b5794adf77b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/5746f4b873476971c9f1a280007a3a89/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/rajpandit/.gradle/caches/transforms-3/5746f4b873476971c9f1a280007a3a89/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rajpandit/.gradle/caches/transforms-3/47d21f64b86627830c487cfebdcf7596/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rajpandit/.gradle/caches/transforms-3/47d21f64b86627830c487cfebdcf7596/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/b734609b14fbff4f0c04a29dca468472/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rajpandit/.gradle/caches/transforms-3/b734609b14fbff4f0c04a29dca468472/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/shreyasharma/.gradle/caches/transforms-3/654753a7e2a29602b4aff004a1442fbe/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/shreyasharma/.gradle/caches/transforms-3/654753a7e2a29602b4aff004a1442fbe/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/2ae65385ad831d6f0131f81db0ad123d/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/2ae65385ad831d6f0131f81db0ad123d/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/shreyasharma/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/shreyasharma/.gradle/caches/transforms-3/3ee285ad320550d5f30a43128c2dd59b/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/shreyasharma/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/shreyasharma/.gradle/caches/transforms-3/72a9d1f08fe3c6cb6fbc4b9f27c6e81b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/5e3dedeeb33629e035b7298c8855d952/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/5e3dedeeb33629e035b7298c8855d952/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/c8c2df458786835e2476cefee25afb56/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/c8c2df458786835e2476cefee25afb56/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/e5d65527964934574726ff657a1705c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/e5d65527964934574726ff657a1705c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/6e5c2dab24c2070a24a0c97df2ed4700/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/6e5c2dab24c2070a24a0c97df2ed4700/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/3cb107bf751ad21d7907f4223a904884/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/3cb107bf751ad21d7907f4223a904884/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/2f306a7d23999224005926d96f2c07ac/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/2f306a7d23999224005926d96f2c07ac/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/b857afdc47b07affe66ad0787ff8898e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/b857afdc47b07affe66ad0787ff8898e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/441a39e3e6c041862a7fa9cf5fd0c5ed/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/441a39e3e6c041862a7fa9cf5fd0c5ed/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/823f98db1c3d9c45fdb57c6ee9bf2124/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/823f98db1c3d9c45fdb57c6ee9bf2124/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/84979a5a763d1e5e0faec29d618e4be7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/84979a5a763d1e5e0faec29d618e4be7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/shreyasharma/.gradle/caches/transforms-3/de86ef27dc89aef46b9f87fc28bbf3ba/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/shreyasharma/.gradle/caches/transforms-3/de86ef27dc89aef46b9f87fc28bbf3ba/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/shreyasharma/.gradle/caches/transforms-3/ab9d7f37c281fbc5b73b7797526f61c5/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/shreyasharma/.gradle/caches/transforms-3/ab9d7f37c281fbc5b73b7797526f61c5/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/shreyasharma/.gradle/caches/transforms-3/adcd65a8230c0d4119179c64b81915e3/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/shreyasharma/.gradle/caches/transforms-3/adcd65a8230c0d4119179c64b81915e3/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/01d0c5965d3f59f89b729693f7c13d58/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/01d0c5965d3f59f89b729693f7c13d58/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/633c86b61bf55ee5f366deca74d14bbc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/633c86b61bf55ee5f366deca74d14bbc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/b20c338f9d036fe10fa6e6397cbb92c0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/b20c338f9d036fe10fa6e6397cbb92c0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/8b5d69cb2a6e1629f42b49ca4f8693b1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/8b5d69cb2a6e1629f42b49ca4f8693b1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/91d348ceb61ca3668a42cbeb4fd16a77/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/91d348ceb61ca3668a42cbeb4fd16a77/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/86bcfe8fbe0e7651394473a504f63926/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/86bcfe8fbe0e7651394473a504f63926/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/68e810420ae228f2e9c27c2e29822731/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/68e810420ae228f2e9c27c2e29822731/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/f354c93cb96f9ad801b22260827e087a/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/shreyasharma/.gradle/caches/transforms-3/f354c93cb96f9ad801b22260827e087a/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/shreyasharma/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/shreyasharma/.gradle/caches/transforms-3/1db6fe7cd3c21b3d38e2f6e10595c2fd/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/a626bb44e21b742adedef2cc08a3f484/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/622180711158a7d9f8edb2e03e8e7a71/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/622180711158a7d9f8edb2e03e8e7a71/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/d5364e0ba6b761a466bd7c663ad1735f/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/d5364e0ba6b761a466bd7c663ad1735f/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/f6050513bd7bba2787ed27a096855a20/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/f6050513bd7bba2787ed27a096855a20/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/1449e957b284d47556dd1fd27b568697/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/1449e957b284d47556dd1fd27b568697/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/643dcff414f1c6f9ab18c8afb84f0242/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/643dcff414f1c6f9ab18c8afb84f0242/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/a7d5b3ed5cfe58ebdcab1fbd9bc9eaf7/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/a7d5b3ed5cfe58ebdcab1fbd9bc9eaf7/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/1768df8f25d2624e529709e8abc08b1e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/1768df8f25d2624e529709e8abc08b1e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/e320d64c96c34f7ef40dc166f5179e24/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/e320d64c96c34f7ef40dc166f5179e24/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/44a4f8c9390a5e8a96d45b5794adf77b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/44a4f8c9390a5e8a96d45b5794adf77b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/5746f4b873476971c9f1a280007a3a89/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/shreyasharma/.gradle/caches/transforms-3/5746f4b873476971c9f1a280007a3a89/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/47d21f64b86627830c487cfebdcf7596/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shreyasharma/.gradle/caches/transforms-3/47d21f64b86627830c487cfebdcf7596/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/b734609b14fbff4f0c04a29dca468472/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/shreyasharma/.gradle/caches/transforms-3/b734609b14fbff4f0c04a29dca468472/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rajpandit/AndroidStudioProjects/MusicMasherApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml

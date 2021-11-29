@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/font/montfamily.xml" value="0.21388888888888888" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_pfp.xml" value="0.25520211371219315" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.228125" />
         <entry key="app/src/main/res/layout/listening_history.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/mash.xml" value="0.21703057260518394" />
-        <entry key="app/src/main/res/layout/mood_finder.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/playlist_generated.xml" value="0.2359375" />
+        <entry key="app/src/main/res/layout/mash.xml" value="0.22594651553163855" />
+        <entry key="app/src/main/res/layout/mood_finder.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/option_item.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/playlist_generated.xml" value="0.25" />
       </map>
     </option>
   </component>

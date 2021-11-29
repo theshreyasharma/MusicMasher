@@ -9,15 +9,16 @@
         android:text="@string/user_name"
         android:textSize="48sp"
         android:gravity="center"/>
+
     <TextView
         android:id="@+id/current_mood"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Current Mood: [Var]"
+        android:layout_below="@id/username"
         android:gravity="center"
+        android:text="Current Mood: [Var]"
         android:textSize="24sp"
-        android:textStyle="italic"
-        android:layout_below="@id/username"/>
+        android:textStyle="italic" />
 
     <LinearLayout
         android:id="@+id/button_group"
