@@ -68,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#FFA76D"
             android:drawableRight="@drawable/export_svgrepo_com"
             android:fontFamily="@font/roboto"
             android:text="link to playlist"

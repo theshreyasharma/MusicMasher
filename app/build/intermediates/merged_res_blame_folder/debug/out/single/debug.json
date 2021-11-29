@@ -64,12 +64,12 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-hdpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_roboto.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/roboto.xml"
-    },
-    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mash.xml.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mash.xml"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_roboto.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/roboto.xml"
     },
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_roundedentry.xml.flat",
