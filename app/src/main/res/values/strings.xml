@@ -17,12 +17,12 @@
 
         <string-array name="artist_array">
             <item>Drake</item>
-            <item>Kanye</item>
-            <item>Joe</item>
-            <item>Poe Samoa</item>
-            <item>Moe</item>
-            <item>Doe</item>
-            <item>Joe2</item>
-            <item>Moe2</item>
+            <item>Kanye West</item>
+            <item>Taylor Swift</item>
+            <item>Ariana Grande</item>
+            <item>justin bieber</item>
+            <item>adele</item>
+            <item>mariah carey</item>
+            <item>madonna</item>
         </string-array>
 </resources>
