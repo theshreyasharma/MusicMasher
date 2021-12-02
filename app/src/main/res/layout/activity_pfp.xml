@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/username"
+    android:layout_height="match_parent"
+    android:background="#a4cce3">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/user_name"
-        android:textSize="48sp"
-        android:gravity="center"/>
+        android:orientation="horizontal"
+        android:id="@+id/username_container"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="25dp">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/usericon"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            >
+        </ImageView>
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_name"
+            android:textSize="44sp"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"
+            android:textColor="#2a2a2a"/>
+    </LinearLayout>
+
+
     <TextView
         android:id="@+id/current_mood"
         android:layout_width="match_parent"
@@ -17,7 +42,8 @@
         android:gravity="center"
         android:textSize="24sp"
         android:textStyle="italic"
-        android:layout_below="@id/username"/>
+        android:layout_below="@id/username_container"
+        android:textColor="#4a4a4a"/>
 
     <LinearLayout
         android:id="@+id/button_group"
@@ -26,8 +52,9 @@
         android:layout_below="@id/current_mood"
         android:orientation="horizontal"
         android:paddingLeft="10dp"
-        android:paddingTop="24dp"
-        android:paddingRight="10dp">
+        android:paddingTop="45dp"
+        android:paddingRight="10dp"
+        >
 
         <Button
             android:id="@+id/mood_button"
@@ -35,14 +62,18 @@
             android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             android:layout_weight="0.5"
-            android:text="@string/mood_button_text" />
+            android:text="@string/mood_button_text"
+            android:backgroundTint="#FFA76D"
+            android:textColor="#2a2a2a"/>
 
         <Button
             android:id="@+id/mash_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
-            android:text="@string/mash_button_text" />
+            android:text="@string/mash_button_text"
+            android:backgroundTint="#FFA76D"
+            android:textColor="#2a2a2a"/>
     </LinearLayout>
 
     <TextView
@@ -51,43 +82,42 @@
         android:layout_height="wrap_content"
         android:text="Weekly Recap"
         android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:textSize="18sp"
+        android:layout_marginTop="45dp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_below="@id/button_group"/>
-    <LinearLayout
+        android:layout_below="@id/button_group"
+        android:textColor="#2a2a2a"/>
+    <androidx.cardview.widget.CardView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/recap_heading"
-        android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="300dp"
-            android:layout_weight="0.1"
-            android:orientation="horizontal">
-            <ListView
-                android:id="@+id/recap_list"
-                android:layout_width="match_parent"
-                android:layout_height="fill_parent">
-            </ListView>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/recap_cardview"
+        >
+
+        <ListView
+            android:id="@+id/recap_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/recap_cardview">
+        <Button
+            android:id="@+id/listening_history"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.1"
-            android:orientation="horizontal"
-            android:gravity="center">
-
-            <Button
-                android:id="@+id/listening_history"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/recap_list"
-                android:layout_centerHorizontal="true"
-                android:text="listening history"/>
-        </LinearLayout>
-
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="listening history"
+            android:backgroundTint="#FFA76D"
+            android:textColor="#2a2a2a"/>
     </LinearLayout>
+
 
 
 </RelativeLayout>

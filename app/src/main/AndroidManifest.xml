@@ -31,6 +31,7 @@
             android:label="Masher"
             android:theme="@style/Theme.MusicMasher.NoActionBar">
         </activity>
+
     </application>
 
 </manifest>

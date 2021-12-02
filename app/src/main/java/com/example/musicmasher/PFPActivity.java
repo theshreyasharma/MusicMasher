@@ -34,16 +34,19 @@ public class PFPActivity extends AppCompatActivity {
         TextView currentMood = findViewById(R.id.current_mood);
         currentMood.setText("Current  Mood: " + mood);
         //populate recap list w/ hardcoded data
-        lv = findViewById(R.id.recap_list);
+        ListView lv = findViewById(R.id.recap_list);
         ArrayAdapter<String> lv_arr;
         lv_arr = new ArrayAdapter<>(
                     this,
                            R.layout.support_simple_spinner_dropdown_item,
                            recap_list);
+
         lv.setAdapter(lv_arr);
+
         //link mash, mood, listening history buttons to activities
         Button moodButton = findViewById(R.id.mood_button);
         Button mashButton = findViewById(R.id.mash_button);
+        Button lhButton = findViewById(R.id.listening_history);
         moodButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,6 +64,7 @@ public class PFPActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
     }
 }
