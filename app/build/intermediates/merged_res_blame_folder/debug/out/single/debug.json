@@ -84,6 +84,10 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_shuffle_svgrepo_com.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/shuffle_svgrepo_com.xml"
+    },
+    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_export_svgrepo_com.xml.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/export_svgrepo_com.xml"
     },
@@ -154,6 +158,10 @@
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_montbold.ttf.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/montbold.ttf"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_ic_round_shuffle_24.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/ic_round_shuffle_24.xml"
     },
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_caret_right_svgrepo_com.xml.flat",

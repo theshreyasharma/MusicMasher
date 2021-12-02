@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a4cce3">
+
     <Button
         android:id="@+id/sign_out"
         android:layout_width="wrap_content"
@@ -11,62 +12,67 @@
         android:drawableLeft="@drawable/caret_left_svgrepo_com"
         android:elevation="0dp"
         android:fontFamily="@font/roboto"
+        android:onClick="signOut"
         android:text="Sign Out"
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="16sp" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/username_cardView"
-        android:layout_marginTop="10dp"
-        android:layout_below="@id/sign_out">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_out"
+        android:layout_marginTop="10dp">
+
         <LinearLayout
+            android:id="@+id/wrap"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/wrap"
             android:orientation="vertical">
+
             <LinearLayout
+                android:id="@+id/username_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:id="@+id/username_container"
                 android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
                 android:paddingTop="25dp">
+
                 <View
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_weight="1"></View>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:src="@drawable/usericon"
-                    android:layout_weight="0.5"
                     android:layout_gravity="center_vertical"
-                    >
-                </ImageView>
+                    android:layout_weight="0.5"
+                    android:src="@drawable/usericon"></ImageView>
+
                 <TextView
                     android:id="@+id/username"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/user_name"
-                    android:textSize="44sp"
-                    android:layout_weight="2"
                     android:layout_gravity="center_vertical"
-                    android:textColor="#2a2a2a"/>
+                    android:layout_weight="2"
+                    android:text="@string/user_name"
+                    android:textColor="#2a2a2a"
+                    android:textSize="44sp" />
             </LinearLayout>
+
             <TextView
                 android:id="@+id/current_mood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Current Mood: [Var]"
-                android:gravity="center"
-                android:textSize="24sp"
-                android:textStyle="italic"
                 android:layout_below="@id/username_container"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="Current Mood: [Var]"
                 android:textColor="#4a4a4a"
-                android:paddingBottom="20dp"/>
+                android:textSize="24sp"
+                android:textStyle="italic" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

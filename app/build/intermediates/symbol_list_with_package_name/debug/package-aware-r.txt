@@ -1701,6 +1701,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_round_shuffle_24
 drawable imgg
 drawable ja
 drawable material_cursor_drawable
@@ -1739,6 +1740,7 @@ drawable password_icon
 drawable roundedentry
 drawable roundedimage
 drawable shuffle
+drawable shuffle_svgrepo_com
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1835,7 +1837,7 @@ id async
 id auto
 id autoComplete
 id autoCompleteText
-id autoCompleteTextView
+id autoCompleteTextView2
 id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
@@ -1848,6 +1850,7 @@ id bounce
 id button
 id button2
 id button3
+id button4
 id buttonPanel
 id button_first
 id button_group
@@ -2124,6 +2127,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sign_out
 id sin
 id skipCollapsed
 id slide
@@ -2217,6 +2221,7 @@ id unlabeled
 id up
 id useLogo
 id username
+id username_cardView
 id username_container
 id view_offset_helper
 id visible
