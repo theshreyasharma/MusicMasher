@@ -13,7 +13,7 @@
     <string name="mood_button_text"><big>Mood</big>\n<br/><small>Tell us how you\'re feeling.</small></string>
     <string name="mash_button_text"><big>Mash</big>\n<br/><small>Mash two artists + your current mood</small></string>
 
-
+    
 
         <string-array name="artist_array">
             <item>Drake</item>
