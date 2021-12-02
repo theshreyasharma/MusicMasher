@@ -35,7 +35,6 @@ public class PFPActivity extends AppCompatActivity {
         //populate recap list w/ hardcoded data
         lv = findViewById(R.id.recap_list);
         ArrayAdapter<String> lv_arr;
-
         lv_arr = new ArrayAdapter<>(
                     this,
                            R.layout.support_simple_spinner_dropdown_item,
@@ -54,7 +53,7 @@ public class PFPActivity extends AppCompatActivity {
             }
         });
 
-
+        String finalMood = mood;
         mashButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
