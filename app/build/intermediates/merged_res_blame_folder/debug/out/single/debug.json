@@ -148,6 +148,10 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/navigation/nav_graph.xml"
     },
     {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mash2.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mash2.xml"
+    },
+    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_montbold.ttf.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/montbold.ttf"
     },
@@ -230,6 +234,10 @@
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_cropped.png.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/cropped.png"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_usericon.png.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/usericon.png"
     },
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
