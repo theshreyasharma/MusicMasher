@@ -8,12 +8,12 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-ldpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mood_finder.xml.flat",
