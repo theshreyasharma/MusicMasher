@@ -1834,6 +1834,7 @@ int id async 0x7f0a0050
 int id auto 0x7f0a0051
 int id autoComplete 0x7f0a0052
 int id autoCompleteText 0x7f0a0053
+int id autoCompleteTextView 0x7f0a01d6
 int id autoCompleteToEnd 0x7f0a0054
 int id autoCompleteToStart 0x7f0a0055
 int id barrier 0x7f0a0056
@@ -2078,6 +2079,7 @@ int id postLayout 0x7f0a013d
 int id profile 0x7f0a013e
 int id profile2 0x7f0a013f
 int id profile3 0x7f0a0140
+int id profile4 0x7f0a01d7
 int id profile5 0x7f0a0141
 int id progress_circular 0x7f0a0142
 int id progress_horizontal 0x7f0a0143
@@ -2149,6 +2151,7 @@ int id stop 0x7f0a0183
 int id stretch 0x7f0a0184
 int id submenuarrow 0x7f0a0185
 int id submit_area 0x7f0a0186
+int id switch1 0x7f0a01d8
 int id tabMode 0x7f0a0187
 int id tag_accessibility_actions 0x7f0a0188
 int id tag_accessibility_clickable_spans 0x7f0a0189
@@ -2170,6 +2173,8 @@ int id textSpacerNoTitle 0x7f0a0198
 int id textStart 0x7f0a0199
 int id textTop 0x7f0a019a
 int id textView 0x7f0a019b
+int id textView10 0x7f0a01d9
+int id textView11 0x7f0a01da
 int id textView2 0x7f0a019c
 int id textView3 0x7f0a019d
 int id textView4 0x7f0a019e
@@ -2303,6 +2308,7 @@ int layout fragment_first 0x7f0d002e
 int layout fragment_second 0x7f0d002f
 int layout listening_history 0x7f0d0030
 int layout mash 0x7f0d0031
+int layout mash2 0x7f0d0078
 int layout material_chip_input_combo 0x7f0d0032
 int layout material_clock_display 0x7f0d0033
 int layout material_clock_display_divider 0x7f0d0034

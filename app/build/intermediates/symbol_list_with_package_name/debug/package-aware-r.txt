@@ -1835,6 +1835,7 @@ id async
 id auto
 id autoComplete
 id autoCompleteText
+id autoCompleteTextView
 id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
@@ -2079,6 +2080,7 @@ id postLayout
 id profile
 id profile2
 id profile3
+id profile4
 id profile5
 id progress_circular
 id progress_horizontal
@@ -2150,6 +2152,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id switch1
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2171,6 +2174,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
+id textView11
 id textView2
 id textView3
 id textView4
@@ -2304,6 +2309,7 @@ layout fragment_first
 layout fragment_second
 layout listening_history
 layout mash
+layout mash2
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

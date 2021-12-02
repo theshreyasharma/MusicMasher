@@ -18,6 +18,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Random;
 
 import java.util.HashMap;
@@ -135,6 +136,8 @@ public class Mash extends AppCompatActivity {
             Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
             passToNewPage.putExtra("MOOD", mood);
             passToNewPage.putExtra("LIST", result);
+            passToNewPage.putExtra("ARTIST1", artist.getText().toString().toLowerCase());
+            passToNewPage.putExtra("ARTIST2", artist1.getText().toString().toLowerCase());
             startActivity(passToNewPage);
         }
         else

@@ -114,7 +114,7 @@
                 android:fontFamily="@font/roboto"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="update mood"
+                android:text="UPDATE MOOD"
                 android:textAllCaps="false"
                 android:textColor="#000000"
                 android:textSize="16sp" />
