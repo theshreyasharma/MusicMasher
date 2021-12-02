@@ -84,17 +84,18 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:hint="Select mood">
 
                 <AutoCompleteTextView
                     android:id="@+id/autoCompleteText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
                     android:background="#FFFFFF"
                     android:enabled="false"
                     android:fontFamily="@font/roboto"
                     android:inputType="none"
+                    android:paddingLeft="22sp"
                     android:textColor="#000"
                     android:textSize="18sp" />
             </com.google.android.material.textfield.TextInputLayout>

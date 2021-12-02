@@ -1,13 +1,14 @@
 [
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_fragment_first.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/fragment_first.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_caret_right_pngrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/caret_right_pngrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-ldpi_caret_left_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-ldpi/caret_left_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-mdpi_caret_right_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-mdpi/caret_right_svgrepo_com.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
     },
@@ -18,245 +19,257 @@
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mood_finder.xml.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mood_finder.xml"
+=======
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_roundedentry.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/roundedentry.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/menu_menu_main.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/menu/menu_main.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-hdpi_caret_right_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-hdpi/caret_right_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_caret_left_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-xxxhdpi/caret_left_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_password_icon.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/password_icon.xml"
+>>>>>>> d545b4ad9bac8cbe590105445cb6c90b3b6e7bf0
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_caret_left_svgrepo_com.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-anydpi-v24/caret_left_svgrepo_com.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/font_montlight.ttf.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/font/montlight.ttf"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-ldpi_caret_left_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-ldpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xxhdpi_caret_right_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-xxhdpi/caret_right_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_mood_finder.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/mood_finder.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_montfamily.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/montfamily.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_white_circle.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/white_circle.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_playlist_generated.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/playlist_generated.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_roundedimage.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/roundedimage.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_listening_history.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/listening_history.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_open_sans.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/open_sans.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_shuffle_svgrepo_com.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/shuffle_svgrepo_com.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-hdpi_caret_left_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-hdpi/caret_left_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/font_montreg.ttf.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/font/montreg.ttf"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_roboto.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/roboto.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/navigation_nav_graph.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/navigation/nav_graph.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mash.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mash.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_roundedentry.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/roundedentry.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_cropped.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/cropped.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-mdpi_caret_right_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-mdpi/caret_right_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_shuffle_svgrepo_com.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/shuffle_svgrepo_com.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_option_item.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/option_item.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_export_svgrepo_com.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/export_svgrepo_com.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xxhdpi_caret_left_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-xxhdpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_white_circle.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/white_circle.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xhdpi_caret_left_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-xhdpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_caret_right_pngrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/caret_right_pngrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_mash.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/mash.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_caret_left_svgrepo_com.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-anydpi-v24/caret_left_svgrepo_com.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_activity_pfp.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/activity_pfp.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_croppedrot.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/croppedrot.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_caret_left_pngrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/caret_left_pngrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-ldpi_caret_right_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-ldpi/caret_right_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/font_montfamily.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/font/montfamily.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_blackfont.ttf.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/blackfont.ttf"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-mdpi_caret_left_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-mdpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_darwin.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/darwin.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_activity_pfp.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/activity_pfp.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_montlight.ttf.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/montlight.ttf"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xhdpi_caret_right_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-xhdpi/caret_right_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_caret_right_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-xxxhdpi/caret_right_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_listening_history.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/listening_history.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/font_open_sans.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/font/open_sans.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_montreg.ttf.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/montreg.ttf"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-ldpi_caret_right_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-ldpi/caret_right_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_caret_left_pngrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/caret_left_pngrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_ja.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/ja.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/navigation_nav_graph.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/navigation/nav_graph.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mash2.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mash2.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_montbold.ttf.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/montbold.ttf"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_imgg.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/imgg.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_ic_round_shuffle_24.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/ic_round_shuffle_24.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/menu_menu_main.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/menu/menu_main.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_caret_right_svgrepo_com.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-anydpi-v24/caret_right_svgrepo_com.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_imgg.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/imgg.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_export_svgrepo_com.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/export_svgrepo_com.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_welcome.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/welcome.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/font_roboto.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/font/roboto.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xhdpi_caret_left_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-xhdpi/caret_left_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/font_blackfont.ttf.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/font/blackfont.ttf"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_caret_right_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-xxxhdpi/caret_right_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_croppedrot.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/croppedrot.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_playlist_generated.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/playlist_generated.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_shuffle.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/shuffle.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_roundedimage.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/roundedimage.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-mdpi_caret_left_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-mdpi/caret_left_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_fragment_second.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/fragment_second.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_fragment_first.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/fragment_first.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_ja.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/ja.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-hdpi_caret_left_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-hdpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-hdpi_caret_right_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-hdpi/caret_right_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_shuffle.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/shuffle.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xhdpi_caret_right_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-xhdpi/caret_right_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/font_montbold.ttf.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/font/montbold.ttf"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_content_main.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/content_main.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xxhdpi_caret_right_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-xxhdpi/caret_right_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_email_icon.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/email_icon.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_usericon.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/usericon.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xxhdpi_caret_left_svgrepo_com.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-xxhdpi/caret_left_svgrepo_com.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_ic_round_shuffle_24.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/ic_round_shuffle_24.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_option_item.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/option_item.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_email_icon.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/email_icon.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_cropped.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/cropped.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_fragment_second.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/fragment_second.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_usericon.png.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/usericon.png"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_mash2.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/mash2.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_caret_right_svgrepo_com.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-anydpi-v24/caret_right_svgrepo_com.xml"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_darwin.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/darwin.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_password_icon.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/password_icon.xml"
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_content_main.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/layout_welcome.xml.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/welcome.xml"
+    },
+    {
+        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_caret_left_svgrepo_com.png.flat",
+        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-xxxhdpi/caret_left_svgrepo_com.png"
     }
 ]
