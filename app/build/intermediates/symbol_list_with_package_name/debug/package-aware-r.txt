@@ -1691,6 +1691,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable email_icon
 drawable export_svgrepo_com
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -1734,12 +1735,14 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable password_icon
 drawable roundedentry
 drawable roundedimage
 drawable shuffle
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable white_circle
 font blackfont
 font montbold
 font montfamily
@@ -1931,6 +1934,7 @@ id fixed
 id flip
 id floating
 id forever
+id forget_password_block
 id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
@@ -1970,6 +1974,7 @@ id largeLabel
 id layout
 id left
 id leftToRight
+id letTheUserLogIn
 id line1
 id line3
 id linear
@@ -1977,6 +1982,11 @@ id list
 id listMode
 id list_item
 id listening_history
+id login_email
+id login_email_editText
+id login_password
+id login_password_editText
+id login_progress_bar
 id mash_button
 id masked
 id material_clock_display
@@ -2360,6 +2370,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout welcome
 menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round

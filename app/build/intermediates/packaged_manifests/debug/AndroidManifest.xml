@@ -53,6 +53,12 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.MusicMasher.NoActionBar" >
         </activity>
+        <activity
+            android:name="com.example.musicmasher.Login"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MusicMasher.NoActionBar" >
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

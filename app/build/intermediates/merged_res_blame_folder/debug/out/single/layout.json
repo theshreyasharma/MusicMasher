@@ -20,6 +20,10 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/playlist_generated.xml"
     },
     {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/welcome.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/welcome.xml"
+    },
+    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_pfp.xml",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/activity_pfp.xml"
     },

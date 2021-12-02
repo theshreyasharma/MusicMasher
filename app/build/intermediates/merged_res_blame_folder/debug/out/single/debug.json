@@ -64,12 +64,12 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-hdpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mash.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mash.xml"
-    },
-    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_roboto.xml.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/roboto.xml"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mash.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mash.xml"
     },
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_roundedentry.xml.flat",
@@ -86,6 +86,10 @@
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_export_svgrepo_com.xml.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/export_svgrepo_com.xml"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_white_circle.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/white_circle.xml"
     },
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_caret_right_pngrepo_com.png.flat",
@@ -156,6 +160,10 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/imgg.png"
     },
     {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_welcome.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/welcome.xml"
+    },
+    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xhdpi_caret_left_svgrepo_com.png.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-xhdpi/caret_left_svgrepo_com.png"
     },
@@ -208,6 +216,10 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/content_main.xml"
     },
     {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_email_icon.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/email_icon.xml"
+    },
+    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable-xxhdpi_caret_left_svgrepo_com.png.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-xxhdpi/caret_left_svgrepo_com.png"
     },
@@ -226,5 +238,9 @@
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_password_icon.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/password_icon.xml"
     }
 ]

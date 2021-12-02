@@ -11,7 +11,7 @@
 9-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:5:5-53:19
+11-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:5:5-60:19
 12        android:allowBackup="true"
 12-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -93,13 +93,24 @@
 54            android:theme="@style/Theme.MusicMasher.NoActionBar" >
 54-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:46:13-65
 55        </activity>
-56
-57        <meta-data
-57-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:49:9-51:57
-58            android:name="preloaded_fonts"
-58-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:50:13-43
-59            android:resource="@array/preloaded_fonts" />
-59-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:51:13-54
-60    </application>
-61
-62</manifest>
+56        <activity
+56-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:49:9-54:20
+57            android:name="com.example.musicmasher.Login"
+57-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:50:13-34
+58            android:exported="true"
+58-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:51:13-36
+59            android:label="@string/app_name"
+59-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:52:13-45
+60            android:theme="@style/Theme.MusicMasher.NoActionBar" >
+60-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:53:13-65
+61        </activity>
+62
+63        <meta-data
+63-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:56:9-58:57
+64            android:name="preloaded_fonts"
+64-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:57:13-43
+65            android:resource="@array/preloaded_fonts" />
+65-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:58:13-54
+66    </application>
+67
+68</manifest>
