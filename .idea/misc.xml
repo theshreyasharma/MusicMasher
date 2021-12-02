@@ -8,12 +8,12 @@
         <entry key="app/src/main/res/layout/activity_pfp.xml" value="0.25520211371219315" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.228125" />
         <entry key="app/src/main/res/layout/listening_history.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/mash.xml" value="0.6621565095195436" />
+        <entry key="app/src/main/res/layout/mash.xml" value="0.22594651553163855" />
         <entry key="app/src/main/res/layout/mash2.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/mood_finder.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/mood_finder.xml" value="0.25" />
         <entry key="app/src/main/res/layout/option_item.xml" value="0.228125" />
         <entry key="app/src/main/res/layout/playlist_generated.xml" value="0.1407185628742515" />
-        <entry key="app/src/main/res/layout/welcome.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/welcome.xml" value="0.25" />
       </map>
     </option>
   </component>

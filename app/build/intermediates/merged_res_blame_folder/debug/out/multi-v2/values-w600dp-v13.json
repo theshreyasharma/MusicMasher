@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+            "outputFile": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/values-w600dp/dimens.xml",
+                    "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/values-w600dp/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
