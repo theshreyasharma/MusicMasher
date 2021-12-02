@@ -13,6 +13,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+
 public class PlaylistGenerated extends AppCompatActivity {
     AutoCompleteTextView autoCompleteTextView;
 //    String finalMood = "";
@@ -23,7 +25,12 @@ public class PlaylistGenerated extends AppCompatActivity {
         setContentView(R.layout.playlist_generated);
 
         String mood = getIntent().getStringExtra("MOOD");
+        ArrayList<String> listPass = getIntent().getStringArrayListExtra("LIST");
+        String artist1 = getIntent().getStringExtra("ARTIST1");
+        String artist2 = getIntent().getStringExtra("ARTIST2");
 
+        TextView textView = (TextView) findViewById(R.id.textView8);
+        textView.setText(artist1 + " x " + artist2);
 
         String[] recap_list = {
                 "One Dance - Drake",
@@ -38,7 +45,7 @@ public class PlaylistGenerated extends AppCompatActivity {
         lv1_arr = new ArrayAdapter<>(
                 this,
                 R.layout.support_simple_spinner_dropdown_item,
-                recap_list);
+                listPass);
         lv1.setAdapter(lv1_arr);
 
         Button profileButton = findViewById(R.id.profile5);
