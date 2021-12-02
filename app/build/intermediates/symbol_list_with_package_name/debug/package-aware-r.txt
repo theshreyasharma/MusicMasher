@@ -1742,6 +1742,7 @@ drawable shuffle
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable usericon
 drawable white_circle
 font blackfont
 font montbold
@@ -2083,6 +2084,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recap_cardview
 id recap_heading
 id recap_list
 id rectangles
@@ -2210,6 +2212,7 @@ id unlabeled
 id up
 id useLogo
 id username
+id username_container
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag

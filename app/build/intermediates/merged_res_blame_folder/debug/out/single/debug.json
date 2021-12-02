@@ -8,12 +8,12 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-ldpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mood_finder.xml.flat",
@@ -64,12 +64,12 @@
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/generated/res/pngs/debug/drawable-hdpi/caret_left_svgrepo_com.png"
     },
     {
-        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_roboto.xml.flat",
-        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/roboto.xml"
-    },
-    {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mash.xml.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mash.xml"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/font_roboto.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/font/roboto.xml"
     },
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_roundedentry.xml.flat",
@@ -230,6 +230,10 @@
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_cropped.png.flat",
         "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/cropped.png"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/drawable_usericon.png.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/drawable/usericon.png"
     },
     {
         "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",

@@ -15,12 +15,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class PlaylistGenerated extends AppCompatActivity {
     AutoCompleteTextView autoCompleteTextView;
+//    String finalMood = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.playlist_generated);
 
+        String mood = getIntent().getStringExtra("MOOD");
 
 
         String[] recap_list = {
@@ -43,8 +45,9 @@ public class PlaylistGenerated extends AppCompatActivity {
         profileButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent intent = new Intent(view.getContext(), PFPActivity.class);
-                intent.putExtra("MOOD", getIntent().getStringExtra("MOOD"));
+                intent.putExtra("MOOD", mood);
                 startActivity(intent);
             }
         });

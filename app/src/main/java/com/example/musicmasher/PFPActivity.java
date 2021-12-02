@@ -53,7 +53,7 @@ public class PFPActivity extends AppCompatActivity {
             }
         });
 
-        String finalMood = mood;
+//        String finalMood = mood;
         mashButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

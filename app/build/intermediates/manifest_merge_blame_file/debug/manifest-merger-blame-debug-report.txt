@@ -11,7 +11,7 @@
 9-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:5:5-60:19
+11-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:5:5-61:19
 12        android:allowBackup="true"
 12-->/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"

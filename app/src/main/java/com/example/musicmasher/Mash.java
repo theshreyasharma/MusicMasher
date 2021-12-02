@@ -75,7 +75,9 @@ public class Mash extends AppCompatActivity {
     }
 
     public void onClickProfile(View view) {
+            String mood = getIntent().getStringExtra("MOOD");
             Intent intent = new Intent(view.getContext(), PFPActivity.class);
+            intent.putExtra("MOOD", mood);
             startActivity(intent);
         }
     public void mashMe(View view) {
@@ -115,9 +117,12 @@ public class Mash extends AppCompatActivity {
             for (int i = 0; i < bound; i++) {
                 result.add(songs1.get(i) + "x" + songs2.get(i));
             }
+            String mood = getIntent().getStringExtra("MOOD");
             String wow = result.toString();
             Bundle passMashed = new Bundle();
             Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
+            passToNewPage.putExtra("MOOD", mood);
+            passToNewPage.putExtra("LIST", result);
             startActivity(passToNewPage);
         }
         else

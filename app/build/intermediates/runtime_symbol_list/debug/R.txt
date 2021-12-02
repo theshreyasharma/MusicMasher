@@ -1741,6 +1741,7 @@ int drawable shuffle 0x7f0800a1
 int drawable test_custom_background 0x7f0800a2
 int drawable tooltip_frame_dark 0x7f0800a3
 int drawable tooltip_frame_light 0x7f0800a4
+int drawable usericon 0x7f0800a8
 int drawable white_circle 0x7f0800a7
 int font blackfont 0x7f090000
 int font montbold 0x7f090001
@@ -2082,6 +2083,7 @@ int id progress_circular 0x7f0a0142
 int id progress_horizontal 0x7f0a0143
 int id radio 0x7f0a0144
 int id ratio 0x7f0a0145
+int id recap_cardview 0x7f0a01d4
 int id recap_heading 0x7f0a0146
 int id recap_list 0x7f0a0147
 int id rectangles 0x7f0a0148
@@ -2209,6 +2211,7 @@ int id unlabeled 0x7f0a01c1
 int id up 0x7f0a01c2
 int id useLogo 0x7f0a01c3
 int id username 0x7f0a01c4
+int id username_container 0x7f0a01d5
 int id view_offset_helper 0x7f0a01c5
 int id visible 0x7f0a01c6
 int id visible_removing_fragment_view_tag 0x7f0a01c7
