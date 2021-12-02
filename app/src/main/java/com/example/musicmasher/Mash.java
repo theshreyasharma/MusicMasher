@@ -61,14 +61,15 @@ public class Mash extends AppCompatActivity {
     }
     public void fillRandomArtist(View view) {
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName);
-        String artistList[] = {"Kanye", "Drake", "Jon", "Adams", "Joe", "Poe"};
+        String artistList[] = getResources().getStringArray(R.array.artist_array);
+
         int pickRandomNum = new Random().nextInt(artistList.length);
         artist.setText(artistList[pickRandomNum]);
 
     }
     public void fillRandomArtist2(View view) {
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName2);
-        String artistList[] = {"Kanye", "Drake", "Jon", "Adams", "Joe", "Poe"};
+        String artistList[] = getResources().getStringArray(R.array.artist_array);
         int pickRandomNum = new Random().nextInt(artistList.length);
         artist.setText(artistList[pickRandomNum]);
 
@@ -115,8 +116,19 @@ public class Mash extends AppCompatActivity {
             ArrayList<String> result = new ArrayList<String>();
             int bound = Math.min(songs1.size(), songs2.size());
             for (int i = 0; i < bound; i++) {
-                result.add(songs1.get(i) + "x" + songs2.get(i));
+                if (i%2 == 1) //odd
+                {
+                    result.add(songs1.get(i) + " | " + artist.getText().toString().toLowerCase());
+                }
+                else
+                {
+                    result.add(songs2.get(i) + " | " + artist1.getText().toString().toLowerCase());
+
+
+                }
             }
+            Log.d("Tag", result.toString());
+
             String mood = getIntent().getStringExtra("MOOD");
             String wow = result.toString();
             Bundle passMashed = new Bundle();
