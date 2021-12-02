@@ -1700,6 +1700,7 @@ int drawable ic_mtrl_checked_circle 0x7f080079
 int drawable ic_mtrl_chip_checked_black 0x7f08007a
 int drawable ic_mtrl_chip_checked_circle 0x7f08007b
 int drawable ic_mtrl_chip_close_circle 0x7f08007c
+int drawable ic_round_shuffle_24 0x7f0800a9
 int drawable imgg 0x7f08007d
 int drawable ja 0x7f08007e
 int drawable material_cursor_drawable 0x7f08007f
@@ -1738,6 +1739,7 @@ int drawable password_icon 0x7f0800a6
 int drawable roundedentry 0x7f08009f
 int drawable roundedimage 0x7f0800a0
 int drawable shuffle 0x7f0800a1
+int drawable shuffle_svgrepo_com 0x7f0800aa
 int drawable test_custom_background 0x7f0800a2
 int drawable tooltip_frame_dark 0x7f0800a3
 int drawable tooltip_frame_light 0x7f0800a4
@@ -1834,7 +1836,7 @@ int id async 0x7f0a0050
 int id auto 0x7f0a0051
 int id autoComplete 0x7f0a0052
 int id autoCompleteText 0x7f0a0053
-int id autoCompleteTextView 0x7f0a01d6
+int id autoCompleteTextView2 0x7f0a01de
 int id autoCompleteToEnd 0x7f0a0054
 int id autoCompleteToStart 0x7f0a0055
 int id barrier 0x7f0a0056
@@ -1847,6 +1849,7 @@ int id bounce 0x7f0a005c
 int id button 0x7f0a005d
 int id button2 0x7f0a005e
 int id button3 0x7f0a005f
+int id button4 0x7f0a01df
 int id buttonPanel 0x7f0a0060
 int id button_first 0x7f0a0061
 int id button_group 0x7f0a0062
@@ -2123,6 +2126,7 @@ int id shortcut 0x7f0a0167
 int id showCustom 0x7f0a0168
 int id showHome 0x7f0a0169
 int id showTitle 0x7f0a016a
+int id sign_out 0x7f0a01dc
 int id sin 0x7f0a016b
 int id skipCollapsed 0x7f0a016c
 int id slide 0x7f0a016d
@@ -2216,6 +2220,7 @@ int id unlabeled 0x7f0a01c1
 int id up 0x7f0a01c2
 int id useLogo 0x7f0a01c3
 int id username 0x7f0a01c4
+int id username_cardView 0x7f0a01dd
 int id username_container 0x7f0a01d5
 int id view_offset_helper 0x7f0a01c5
 int id visible 0x7f0a01c6

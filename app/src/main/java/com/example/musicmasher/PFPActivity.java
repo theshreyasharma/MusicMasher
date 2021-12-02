@@ -74,4 +74,8 @@ public class PFPActivity extends AppCompatActivity {
         });
 
     }
+    public void signOut(View view) {
+        startActivity(new Intent(getApplicationContext(), Login.class));
+    }
+
 }
