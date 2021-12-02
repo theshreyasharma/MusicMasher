@@ -3,53 +3,81 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a4cce3">
-    <LinearLayout
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/caret_left_svgrepo_com"
+        android:elevation="0dp"
+        android:fontFamily="@font/roboto"
+        android:text="Sign Out"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/username_container"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="25dp">
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"></View>
-        <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:src="@drawable/usericon"
-            android:layout_weight="0.5"
-            android:layout_gravity="center_vertical"
-            >
-        </ImageView>
-        <TextView
-            android:id="@+id/username"
-            android:layout_width="wrap_content"
+        android:id="@+id/username_cardView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/sign_out">
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/user_name"
-            android:textSize="44sp"
-            android:layout_weight="2"
-            android:layout_gravity="center_vertical"
-            android:textColor="#2a2a2a"/>
-    </LinearLayout>
+            android:id="@+id/wrap"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/username_container"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="25dp">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></View>
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/usericon"
+                    android:layout_weight="0.5"
+                    android:layout_gravity="center_vertical"
+                    >
+                </ImageView>
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name"
+                    android:textSize="44sp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#2a2a2a"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/current_mood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Mood: [Var]"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:layout_below="@id/username_container"
+                android:textColor="#4a4a4a"
+                android:paddingBottom="20dp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 
 
-    <TextView
-        android:id="@+id/current_mood"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Current Mood: [Var]"
-        android:gravity="center"
-        android:textSize="24sp"
-        android:textStyle="italic"
-        android:layout_below="@id/username_container"
-        android:textColor="#4a4a4a"/>
 
     <LinearLayout
         android:id="@+id/button_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/current_mood"
+        android:layout_below="@id/username_cardView"
         android:orientation="horizontal"
         android:paddingLeft="10dp"
         android:paddingTop="45dp"
@@ -91,7 +119,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/recap_heading"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:id="@+id/recap_cardview"
         >
 

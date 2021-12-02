@@ -41,9 +41,17 @@ public class PFPActivity extends AppCompatActivity {
                            recap_list);
         lv.setAdapter(lv_arr);
         //link mash, mood, listening history buttons to activities
+        Button signOutButton = findViewById(R.id.sign_out);
         Button moodButton = findViewById(R.id.mood_button);
         Button mashButton = findViewById(R.id.mash_button);
         String finalMood = mood;
+        signOutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), Login.class);
+                startActivity(intent);
+            }
+        });
         moodButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,7 +61,6 @@ public class PFPActivity extends AppCompatActivity {
             }
         });
 
-        String finalMood = mood;
         mashButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
