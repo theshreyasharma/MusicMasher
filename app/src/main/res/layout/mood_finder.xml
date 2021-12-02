@@ -3,17 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentLeft="true">
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:background="#FFFFFF">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#a4cce3"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a4cce3"
             android:orientation="horizontal">
 
             <Button
@@ -22,37 +25,54 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00FFFFFF"
                 android:drawableLeft="@drawable/caret_left_svgrepo_com"
+                android:elevation="0dp"
+                android:fontFamily="@font/roboto"
                 android:text="profile"
                 android:textAllCaps="false"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
         </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="70dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView4"
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:padding="40dp"
-                android:text="Mood Finder"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="34sp" />
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp">
 
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:padding="20dp"
-                android:text="How are you feeling?"
-                android:textAlignment="center"
-                android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans"
+                    android:text="Mood Finder"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:paddingBottom="70dp"
+                    android:text="How are you feeling?"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </androidx.cardview.widget.CardView>
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
@@ -64,26 +84,38 @@
                     android:id="@+id/autoCompleteText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="#FFFFFF"
                     android:enabled="false"
+                    android:fontFamily="@font/roboto"
                     android:inputType="none"
-                    android:textColor="#000" />
+                    android:textColor="#000"
+                    android:textSize="18sp" />
             </com.google.android.material.textfield.TextInputLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="90dp" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:backgroundTint="#00F87575"
+                android:backgroundTint="#FFA76D"
                 android:drawableRight="@drawable/caret_right_svgrepo_com"
+                android:fontFamily="@font/roboto"
                 android:gravity="center"
+                android:padding="20dp"
                 android:text="update mood"
                 android:textAllCaps="false"
-                android:textColor="#000000" />
-
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
 
         </LinearLayout>
+
     </LinearLayout>
 
 </FrameLayout>

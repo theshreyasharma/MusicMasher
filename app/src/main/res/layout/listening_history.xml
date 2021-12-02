@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#a4cce3"
         android:orientation="vertical">
 
         <LinearLayout
@@ -18,90 +20,88 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:backgroundTint="#00FFFFFF"
+                android:backgroundTint="#a4cce3"
                 android:drawableLeft="@drawable/caret_left_svgrepo_com"
+                android:fontFamily="@font/roboto"
                 android:text="profile"
                 android:textAllCaps="false"
-                android:textColor="#000000" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:padding="40dp"
-                android:text="My Listening History"
-                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="34sp" />
-
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:padding="20dp"
-                android:text="Most Popular Mood and Artist by Week"
-                android:textAlignment="center"
-                android:textColor="#000000" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="6dp">
 
-            <EditText
-                android:id="@+id/editTextTextMultiLine2"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine" />
+                android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editTextTextMultiLine3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine" />
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans"
+                    android:padding="20dp"
+                    android:text="My Listening History"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="34sp" />
 
-        <LinearLayout
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Most Popular Mood and Artist by Week"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="6dp">
 
-            <TextView
-                android:id="@+id/textView9"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:padding="40dp"
-                android:text="Previous Playlists"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="34sp" />
+                android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editTextTextMultiLine4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine" />
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans"
+                    android:padding="20dp"
+                    android:text="Previous Playlists"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="34sp" />
+
+                <ListView
+                    android:id="@+id/play"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 </FrameLayout>

@@ -51,6 +51,7 @@ public class MoodFinder extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), PFPActivity.class);
+                intent.putExtra("MOOD", getIntent().getStringExtra("MOOD"));
                 startActivity(intent);
             }
         });

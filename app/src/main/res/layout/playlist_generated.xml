@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#a4cce3"
         android:orientation="vertical">
 
         <LinearLayout
@@ -22,50 +23,59 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00FFFFFF"
                 android:drawableLeft="@drawable/caret_left_svgrepo_com"
+                android:fontFamily="@font/roboto"
                 android:text="profile"
                 android:textAllCaps="false"
-                android:textColor="#000000" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center"
-                android:padding="40dp"
-                android:text="Drake x Kanye West"
-                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="34sp" />
-
-            <EditText
-                android:id="@+id/editTextTextMultiLine"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:backgroundTint="#00F87575"
-                android:drawableRight="@drawable/export_svgrepo_com"
-                android:text="link to playlist"
-                android:textAlignment="center"
-                android:textAllCaps="false"
-                android:textColor="#000000" />
+                android:textSize="16sp" />
 
         </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="center"
+                    android:padding="40dp"
+                    android:text="Drake x Kanye West"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="48sp" />
+
+                <ListView
+                    android:id="@+id/playlistgenerated"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFA76D"
+            android:drawableRight="@drawable/export_svgrepo_com"
+            android:fontFamily="@font/roboto"
+            android:text="link to playlist"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
