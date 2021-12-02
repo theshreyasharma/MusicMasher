@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a4cce3">
@@ -20,7 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/username_cardView"
-        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
         android:layout_below="@id/sign_out">
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,17 +74,15 @@
     </androidx.cardview.widget.CardView>
 
 
-
     <LinearLayout
         android:id="@+id/button_group"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="90dp"
         android:layout_below="@id/username_cardView"
         android:orientation="horizontal"
         android:paddingLeft="10dp"
-        android:paddingTop="45dp"
-        android:paddingRight="10dp"
-        >
+        android:layout_marginTop="25dp"
+        android:paddingRight="10dp">
 
         <Button
             android:id="@+id/mood_button"
@@ -90,18 +90,18 @@
             android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             android:layout_weight="0.5"
-            android:text="@string/mood_button_text"
             android:backgroundTint="#FFA76D"
-            android:textColor="#2a2a2a"/>
+            android:text="@string/mood_button_text"
+            android:textColor="#2a2a2a" />
 
         <Button
             android:id="@+id/mash_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
-            android:text="@string/mash_button_text"
             android:backgroundTint="#FFA76D"
-            android:textColor="#2a2a2a"/>
+            android:text="@string/mash_button_text"
+            android:textColor="#2a2a2a" />
     </LinearLayout>
 
     <TextView
@@ -110,16 +110,17 @@
         android:layout_height="wrap_content"
         android:text="Weekly Recap"
         android:gravity="center"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="30dp"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_below="@id/button_group"
         android:textColor="#2a2a2a"/>
     <androidx.cardview.widget.CardView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="225dp"
         android:layout_below="@id/recap_heading"
-        android:layout_marginTop="15dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
         android:id="@+id/recap_cardview"
         >
 
@@ -140,7 +141,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="5dp"
             android:text="listening history"
             android:backgroundTint="#FFA76D"
             android:textColor="#2a2a2a"/>
