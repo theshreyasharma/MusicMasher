@@ -23,7 +23,7 @@ public class PlaylistGenerated extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.playlist_generated);
-        
+
         String mood = getIntent().getStringExtra("MOOD");
         ArrayList<String> listPass = getIntent().getStringArrayListExtra("LIST");
         String artist1 = getIntent().getStringExtra("ARTIST1");
