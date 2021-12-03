@@ -18,6 +18,7 @@
 
             <Button
                 android:id="@+id/profile4"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -100,13 +101,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 android:orientation="horizontal">
 
                 <AutoCompleteTextView
                     android:id="@+id/autoCompleteTextView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:fontFamily="@font/roboto"
                     android:text="Enter first artist"
                     android:textColor="#000000"
@@ -144,14 +146,17 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
                 <AutoCompleteTextView
                     android:id="@+id/autoCompleteTextView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Enter second artist" />
+                    android:layout_weight="2"
+                    android:text="Enter second artist"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
 
                 <ImageButton
                     android:id="@+id/imageButton8"
