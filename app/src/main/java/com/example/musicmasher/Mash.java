@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -26,9 +27,7 @@ public class Mash extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mash);
-        ImageView imageRounded= (ImageView) findViewById(R.id.imageLeft);
-                imageRounded.setClipToOutline(true);
+        setContentView(R.layout.mash2);
         if (getIntent().getStringExtra("MOOD") != null) {
             updateCurrentMoodString(true);
         } else {
@@ -46,6 +45,7 @@ public class Mash extends AppCompatActivity {
         textView2.setAdapter(adapter2);
     }
     public void updateCurrentMoodString(boolean mood) {
+        Log.d("tag", "control");
         Bundle b=this.getIntent().getExtras();
         String currentMood =b.getString("MOOD");
         String message = mood ? "Current Mood: "+currentMood : "No Current Mood";
@@ -158,7 +158,7 @@ public class Mash extends AppCompatActivity {
     }
     public void checkBoxFunction(View view) {
         boolean mood = true;
-        CheckBox cb1 = (CheckBox) findViewById(R.id.checkBox);
+        Switch cb1 = (Switch) findViewById(R.id.switch1);
         mood = cb1.isChecked() ? false: true;
         updateCurrentMoodString(mood);
 
