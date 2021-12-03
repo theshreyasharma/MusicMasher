@@ -31,10 +31,9 @@ public class PFPActivity extends AppCompatActivity {
         }
 
         //get username string
-        Intent intent2 = getIntent();
         String username = "User";
         if(getIntent().getExtras() != null) {
-            username = intent2.getStringExtra("USERNAME");
+            username = intent.getStringExtra("USERNAME");
         }
         TextView usernameView = findViewById(R.id.username);
         usernameView.setText(username);
@@ -55,11 +54,13 @@ public class PFPActivity extends AppCompatActivity {
         Button moodButton = findViewById(R.id.mood_button);
         Button mashButton = findViewById(R.id.mash_button);
         String finalMood = mood;
+        String user = username;
         moodButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), MoodFinder.class);
                 intent.putExtra("MOOD", finalMood);
+                intent.putExtra("USERNAME", user);
                 startActivity(intent);
             }
         });
@@ -70,6 +71,7 @@ public class PFPActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), Mash.class);
                 intent.putExtra("MOOD", finalMood);
+                intent.putExtra("USERNAME", user);
                 startActivity(intent);
             }
         });
@@ -80,6 +82,7 @@ public class PFPActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), ListeningHistory.class);
                 intent.putExtra("MOOD", finalMood);
+                intent.putExtra("USERNAME", user);
                 startActivity(intent);
             }
         });

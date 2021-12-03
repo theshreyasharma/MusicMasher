@@ -83,6 +83,7 @@ public class Mash extends AppCompatActivity {
         String mood = getIntent().getStringExtra("MOOD");
         Intent intent = new Intent(view.getContext(), PFPActivity.class);
         intent.putExtra("MOOD", mood);
+        intent.putExtra("USERNAME", getIntent().getStringExtra("USERNAME"));
         startActivity(intent);
     }
     public void mashMe(View view) {
@@ -307,7 +308,9 @@ public class Mash extends AppCompatActivity {
                     passToNewPage.putExtra("LIST", result);
                     passToNewPage.putExtra("ARTIST1", artomg);
                     passToNewPage.putExtra("ARTIST2", artomg2);
-                    startActivity(passToNewPage);
+                    passToNewPage.putExtra("USERNAME", getIntent().getStringExtra("USERNAME"));
+
+                startActivity(passToNewPage);
                 }
 
             else
@@ -336,6 +339,7 @@ public class Mash extends AppCompatActivity {
                 passToNewPage.putExtra("LIST", result);
                 passToNewPage.putExtra("ARTIST1", artomg);
                 passToNewPage.putExtra("ARTIST2", artomg2);
+                passToNewPage.putExtra("USERNAME", getIntent().getStringExtra("USERNAME"));
                 startActivity(passToNewPage);
             }
         }

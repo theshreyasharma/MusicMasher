@@ -45,6 +45,7 @@ public class MoodFinder extends AppCompatActivity {
                 if (selection[0] != null) {
                     Intent intent = new Intent(view.getContext(), PFPActivity.class);
                     intent.putExtra("MOOD", selection[0]);
+                    intent.putExtra("USERNAME", getIntent().getStringExtra("USERNAME"));
                     startActivity(intent);
                 } else {
                     new AlertDialog.Builder(view.getContext())
@@ -68,6 +69,7 @@ public class MoodFinder extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), PFPActivity.class);
                 intent.putExtra("MOOD", getIntent().getStringExtra("MOOD"));
+                intent.putExtra("USERNAME", getIntent().getStringExtra("USERNAME"));
                 startActivity(intent);
             }
         });

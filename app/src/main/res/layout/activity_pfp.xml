@@ -44,14 +44,13 @@
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_weight="1"></View>
+
                 <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/usericon"
-                    android:layout_weight="0.5"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
                     android:layout_gravity="center_vertical"
-                    >
-                </ImageView>
+                    android:layout_weight="0.5"
+                    android:src="@drawable/usericon"></ImageView>
 
                 <TextView
                     android:id="@+id/username"
@@ -61,19 +60,20 @@
                     android:layout_weight="2"
                     android:text="[Var]"
                     android:textColor="#2a2a2a"
-                    android:textSize="44sp" />
+                    android:textSize="32dp" />
             </LinearLayout>
+
             <TextView
                 android:id="@+id/current_mood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Current Mood: [Var]"
-                android:gravity="center"
-                android:textSize="24sp"
-                android:textStyle="italic"
                 android:layout_below="@id/username_container"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="Current Mood: [Var]"
                 android:textColor="#4a4a4a"
-                android:paddingBottom="20dp"/>
+                android:textSize="18dp"
+                android:textStyle="italic" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

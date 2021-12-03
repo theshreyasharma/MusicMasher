@@ -53,6 +53,7 @@ public class ListeningHistory extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), PFPActivity.class);
                 intent.putExtra("MOOD", getIntent().getStringExtra("MOOD"));
+                intent.putExtra("USERNAME", getIntent().getStringExtra("USERNAME"));
                 startActivity(intent);
             }
         });
