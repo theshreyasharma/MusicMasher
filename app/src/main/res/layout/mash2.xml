@@ -27,6 +27,7 @@
                 android:drawableLeft="@drawable/caret_left_svgrepo_com"
                 android:elevation="0dp"
                 android:fontFamily="@font/roboto"
+                android:onClick="onClickProfile"
                 android:text="profile"
                 android:textAllCaps="false"
                 android:textColor="#000000"
@@ -113,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:fontFamily="@font/roboto"
-                    android:text="Enter first artist"
+                    android:hint="Enter first artist"
                     android:textColor="#000000"
                     android:textColorHint="#000000" />
 
@@ -153,13 +154,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal">
-                
+
                 <AutoCompleteTextView
                     android:id="@+id/editTextTextPersonName2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Enter second artist"
+                    android:hint="Enter second artist"
                     android:textColor="#000000"
                     android:textColorHint="#000000" />
 
