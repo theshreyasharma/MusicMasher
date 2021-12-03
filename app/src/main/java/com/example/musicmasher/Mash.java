@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.Pair;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -20,17 +21,16 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Locale;
-import java.util.Map;
 import java.util.Random;
 
 import java.util.HashMap;
-import java.util.TreeMap;
-
 public class Mash extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mash2);
+        setContentView(R.layout.mash);
+        ImageView imageRounded= (ImageView) findViewById(R.id.imageLeft);
+                imageRounded.setClipToOutline(true);
         if (getIntent().getStringExtra("MOOD") != null) {
             updateCurrentMoodString(true);
         } else {
@@ -48,7 +48,6 @@ public class Mash extends AppCompatActivity {
         textView2.setAdapter(adapter2);
     }
     public void updateCurrentMoodString(boolean mood) {
-        Log.d("tag", "control");
         Bundle b=this.getIntent().getExtras();
         String currentMood =b.getString("MOOD");
         String message = mood ? "Current Mood: "+currentMood : "No Current Mood";
@@ -86,27 +85,34 @@ public class Mash extends AppCompatActivity {
             startActivity(intent);
         }
     public void mashMe(View view) {
-        Map<String, ArrayList<String>> map =new TreeMap<String, ArrayList<String>>(String.CASE_INSENSITIVE_ORDER);;
+        HashMap<String, ArrayList<Pair<String, String>>> map = new HashMap<String, ArrayList<Pair<String, String>>>();
 
         /**
          * To whomever wants to help me add artists,
          * add their key as ALL lowercase please.
          */
-        map.put("Drake", new ArrayList<String>(
-                Arrays.asList("God's Plan", "Way 2 Sexy", "Toosie Slide", "Know Yourself", "One Dance", "Laugh Now Cry Later")));
-        map.put("Kanye West", new ArrayList<String>(
+        map.put("drake", new ArrayList<Pair<String, String>> (
+                Arrays.asList(new Pair<>("God's Plan", "upbeat"),
+                        new Pair<>("Way 2 Sexy", "confident"),
+                        new Pair<>("Toosie Slide", "upbeat"),
+                        new Pair<>("Know Yourself", "sad"),
+                        new Pair<>("One Dance", "upbeat"),
+                        new Pair<>("Laugh Now Cry Later", "sad")
+                )));
+
+        map.put("kanye west", new ArrayList<String>(
                 Arrays.asList("Praise God", "Flashing Lights", "Off the Grid", "Heartless")));
-        map.put("Taylor Swift", new ArrayList<String>(
+        map.put("taylor swift", new ArrayList<String>(
                 Arrays.asList("Blank Space", "Look What You Made Me Do", "You Belong With Me", "Bad Blood")));
-        map.put("Ariana Grande", new ArrayList<String>(
+        map.put("ariana grande", new ArrayList<String>(
                 Arrays.asList("Thank you next", "God Is a Woman", "Rain on Me", "Bang Bang")));
-        map.put("Justin Bieber", new ArrayList<String>(
+        map.put("justin bieber", new ArrayList<String>(
                 Arrays.asList("Baby", "Holy", "STAY", "LONELY", "Love Yourself ", "Mood")));
-        map.put("Adele", new ArrayList<String>(
+        map.put("adele", new ArrayList<String>(
                 Arrays.asList("Easy on Me", "Rolling in the Deep", "Someone Like You", "Send My Love", "Set Fire to the Rain")));
-        map.put("Mariah Carey", new ArrayList<String>(
+        map.put("mariah carey", new ArrayList<String>(
                 Arrays.asList("All I want for Christmas is You", "We Belong Together", "Without You", "Always be My Baby", "Obsessed")));
-        map.put("Madonna", new ArrayList<String>(
+        map.put("madonna", new ArrayList<String>(
                 Arrays.asList("Hung up", "Frozen ", "Hung up", "The Power of Goodbye")));
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName2);
         EditText artist1 = (EditText) findViewById(R.id.editTextTextPersonName);
@@ -117,43 +123,20 @@ public class Mash extends AppCompatActivity {
         if(map.containsKey(artist.getText().toString().toLowerCase().trim())&& map.containsKey(artist1.getText().toString().toLowerCase().trim())) {
             songs1 = map.get(artist.getText().toString().toLowerCase().trim());
             songs2 = map.get(artist1.getText().toString().toLowerCase().trim());
-            String artomg = "";
-            String artomg2 = "";
-            for(String key : map.keySet())
-            {
-                if (key.toLowerCase().trim().compareToIgnoreCase( artist.getText().toString().toLowerCase().trim()) == 0)
-                {
-                    artomg  = key;
-
-                }
-
-            }
-            for(String key : map.keySet())
-            {
-                if (key.toLowerCase().trim().compareToIgnoreCase( artist1.getText().toString().toLowerCase().trim()) == 0)
-                {
-                    artomg2  = key;
-
-                }
-            }
-
             ArrayList<String> result = new ArrayList<String>();
             int bound = Math.min(songs1.size(), songs2.size());
             for (int i = 0; i < bound; i++) {
-
-
-
                 if (i%2 == 1) //odd
                 {
-                    result.add(songs1.get(i) + " | " + artomg);
+                    result.add(songs1.get(i) + " | " + artist.getText().toString().toLowerCase());
                 }
                 else
                 {
-                    result.add(songs2.get(i) + " | " + artomg2);
+                    result.add(songs2.get(i) + " | " + artist1.getText().toString().toLowerCase());
 
 
                 }
-
+            }
             Log.d("Tag", result.toString());
 
             String mood = getIntent().getStringExtra("MOOD");
@@ -162,15 +145,14 @@ public class Mash extends AppCompatActivity {
             Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
             passToNewPage.putExtra("MOOD", mood);
             passToNewPage.putExtra("LIST", result);
-            passToNewPage.putExtra("ARTIST1", artomg);
-            passToNewPage.putExtra("ARTIST2", artomg2);
+            passToNewPage.putExtra("ARTIST1", artist.getText().toString().toLowerCase());
+            passToNewPage.putExtra("ARTIST2", artist1.getText().toString().toLowerCase());
             startActivity(passToNewPage);
-            }
         }
         else
         {
             new AlertDialog.Builder(this)
-                    .setTitle("Artist(s) not found!")
+                    .setTitle("Error: Artist(s) not found")
                     .setMessage("Masher does not have data for one or more of the artists you entered. \n" +
                             "Try using the default ones!")
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
@@ -185,7 +167,7 @@ public class Mash extends AppCompatActivity {
     }
     public void checkBoxFunction(View view) {
         boolean mood = true;
-        Switch cb1 = (Switch) findViewById(R.id.switch1);
+        CheckBox cb1 = (CheckBox) findViewById(R.id.checkBox);
         mood = cb1.isChecked() ? false: true;
         updateCurrentMoodString(mood);
 
