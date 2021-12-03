@@ -29,6 +29,17 @@ public class PFPActivity extends AppCompatActivity {
         if(getIntent().getExtras() != null) {
             mood = intent.getStringExtra("MOOD");
         }
+
+        //get username string
+        Intent intent2 = getIntent();
+        String username = "User";
+        if(getIntent().getExtras() != null) {
+            username = intent2.getStringExtra("USERNAME");
+        }
+        TextView usernameView = findViewById(R.id.username);
+        usernameView.setText(username);
+
+
         //set current Mood text
         TextView currentMood = findViewById(R.id.current_mood);
         currentMood.setText("Current  Mood: " + mood);
