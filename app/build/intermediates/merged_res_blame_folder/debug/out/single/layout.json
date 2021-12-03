@@ -1,46 +1,46 @@
 [
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/option_item.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/option_item.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mash.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mash.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/welcome.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/welcome.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/listening_history.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/listening_history.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mood_finder.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/mood_finder.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_main.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/content_main.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mash2.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/mash2.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/fragment_first.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mash.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/mash.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/welcome.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/welcome.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_main.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/content_main.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/playlist_generated.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/playlist_generated.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_pfp.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/activity_pfp.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_pfp.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/activity_pfp.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/playlist_generated.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/playlist_generated.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mash2.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mash2.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_second.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/fragment_second.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/option_item.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/option_item.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/fragment_first.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_second.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/fragment_second.xml"
     },
     {
-        "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/listening_history.xml",
-        "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/layout/listening_history.xml"
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mood_finder.xml",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mood_finder.xml"
     }
 ]
