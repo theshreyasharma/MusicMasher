@@ -11,20 +11,15 @@ import android.util.Pair;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Locale;
 import java.util.Map;
 import java.util.Random;
 
-import java.util.HashMap;
 import java.util.TreeMap;
 
 public class Mash extends AppCompatActivity {
@@ -87,7 +82,7 @@ public class Mash extends AppCompatActivity {
             startActivity(intent);
         }
     public void mashMe(View view) {
-        Map<String, ArrayList<String>> map =new TreeMap<String, ArrayList<String>>(String.CASE_INSENSITIVE_ORDER);;
+        Map<String, ArrayList<Pair<String, String>>> map =new TreeMap<>(String.CASE_INSENSITIVE_ORDER);;
 
         /**
          * To whomever wants to help me add artists,
@@ -154,6 +149,80 @@ public class Mash extends AppCompatActivity {
                         new Pair<>("Hung up", "angry"),
                         new Pair<>("The Power of Goodbye", "confident")
         )));
+
+        map.put("Mac Miller", new ArrayList<>(
+                Arrays.asList(
+                        new Pair<>("The Spins", "upbeat"),
+                        new Pair<>("Self Care", "confident"),
+                        new Pair<>("Weekend", "upbeat"),
+                        new Pair<>("Ladders", "angry"),
+                        new Pair<>("Come Back to Earth", "sad"),
+                        new Pair<>("Jet Fuel", "angry"),
+                        new Pair<>("So It Goes", "sad"))
+        ));
+
+        map.put("Rihanna", new ArrayList<>(
+                Arrays.asList(
+                        new Pair<>("Love On The Brain", "angry"),
+                        new Pair<>("Umbrella", "upbeat"),
+                        new Pair<>("Needed Me", "angry"),
+                        new Pair<>("FourFiveSeconds", "sad"),
+                        new Pair<>("Work", "angry"),
+                        new Pair<>("Stay", "sad"),
+                        new Pair<>("Pon De Replay", "confident"))
+        ));
+
+        map.put("Harry Styles", new ArrayList<>(
+                Arrays.asList(
+                        new Pair<>("Fine Line", "confident"),
+                        new Pair<>("Watermelon Sugar", "upbeat"),
+                        new Pair<>("Falling", "sad"),
+                        new Pair<>("Golden", "confident"),
+                        new Pair<>("Sign of the Times", "sad"),
+                        new Pair<>("Adore You", "confident"),
+                        new Pair<>("Sweet Creature", "upbeat"),
+                        new Pair<>("She", "angry"),
+                        new Pair<>("Two Ghosts", "sad"))
+                ));
+
+        map.put("Doja Cat", new ArrayList<>(
+                Arrays.asList(
+                        new Pair<>("Woman", "upbeat"),
+                        new Pair<>("Need to Know", "angry"),
+                        new Pair<>("Kiss Me More", "upbeat"),
+                        new Pair<>("Get Into It (Yuh)", "confident"),
+                        new Pair<>("You Right", "sad"),
+                        new Pair<>("Ain't Shit", "angry"),
+                        new Pair<>("Say So", "angry"),
+                        new Pair<>("SCOOP", "upbeat"),
+                        new Pair<>("Best Friend", "confident")
+        ));
+        map.put("Ed Sheeran", new ArrayList<>(
+                Arrays.asList(
+                        new Pair<>("Perfect", "confident"),
+                        new Pair<>("Shape of You", "upbeat"),
+                        new Pair<>("Photograph", "sad"),
+                        new Pair<>("Thinking Out Loud", "sad"),
+                        new Pair<>("A Team", "sad"),
+                        new Pair<>("I See Fire", "angry"),
+                        new Pair<>("Kiss Me", "confident"),
+                        new Pair<>("I'm a Mess", "sad"),
+                        new Pair<>("Castle on the Hill", "upbeat"))
+        ));
+
+        map.put("J. Cole", new ArrayList<>(
+                Arrays.asList(
+                        new Pair<>("No Role Modelz", "angry"),
+                        new Pair<>("She Knows", "angry"),
+                        new Pair<>("Work Out", "upbeat"),
+                        new Pair<>("MIDDLE CHILD", "confident"),
+                        new Pair<>("Wet Dreamz", "confident"),
+                        new Pair<>("KOD", "upbeat"),
+                        new Pair<>("Neighbors", "angry"),
+                        new Pair<>("Power Trip", "upbeat"),
+                        new Pair<>("Kevin's Heart", "sad"),
+                        new Pair<>("Photograph", "sad"))
+        ));
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName2);
         EditText artist1 = (EditText) findViewById(R.id.editTextTextPersonName);
         Log.d("artist", artist.getText().toString());
