@@ -97,21 +97,45 @@ public class Mash extends AppCompatActivity {
                         new Pair<>("Toosie Slide", "upbeat"),
                         new Pair<>("Know Yourself", "sad"),
                         new Pair<>("One Dance", "upbeat"),
-                        new Pair<>("Laugh Now Cry Later", "sad")
+                        new Pair<>("Laugh Now Cry Later", "confident"),
+                        new Pair<>("Fair Trade", "confident"),
+                        new Pair<>("Best I Ever Had", "sad"),
+                        new Pair<>("Wants and Needs", "confident"),
+                        new Pair<>("In My Feelings", "sad"),
+                        new Pair<>("Hold On, We're Going Home", "sad"),
+                        new Pair<>("Started From The Bottom", "angry"),
+                        new Pair<>("Knife Talk", "angry"),
+                        new Pair<>("Jumpman", "angry"),
+                        new Pair<>("Feel No Ways", "sad"),
+                        new Pair<>("Take Care", "sad")
                 )));
         map.put("Kanye West", new ArrayList<Pair<String, String>> (
                 Arrays.asList(new Pair<>("Praise God", "upbeat"),
                         new Pair<>("Flashing Lights", "confident"),
                         new Pair<>("Jesus Walks", "upbeat"),
                         new Pair<>("Off the Grid", "sad"),
-                        new Pair<>("Heartless", "angry")
+                        new Pair<>("Heartless", "angry"),
+                        new Pair<>("Moon", "sad"),
+                        new Pair<>("Stronger", "upbeat"),
+                        new Pair<>("Father Stretch My Hands", "sad"),
+                        new Pair<>("Jail", "confident"),
+                        new Pair<>("Gold Digger", "angry"),
+                        new Pair<>("I Love It", "upbeat"),
+                        new Pair<>("Ultralight Beam", "sad"),
+                        new Pair<>("Champions", "sad")
                 )));
         map.put("Taylor Swift", new ArrayList<Pair<String, String>> (
                 Arrays.asList(
                         new Pair<>("Blank Space", "confident"),
                         new Pair<>("Look What You Made Me Do", "upbeat"),
                         new Pair<>("You Belong With Me", "upbeat"),
-                        new Pair<>("Bad Blood", "angry")
+                        new Pair<>("Bad Blood", "angry"),
+                        new Pair<>("All Too Well", "sad"),
+                        new Pair<>("Wildest Dreams", "sad"),
+                        new Pair<>("Love Story", "upbeat"),
+                        new Pair<>("Shake It Off", "confident"),
+                        new Pair<>("Bad Blood", "angry"),
+                        new Pair<>("Champagne Problems", "angry")
                 )));
         map.put("Ariana Grande", new ArrayList<Pair<String, String>> (
                 Arrays.asList(
