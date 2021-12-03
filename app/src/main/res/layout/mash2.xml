@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a4cce3">
@@ -72,7 +73,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/textView3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
@@ -86,8 +87,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/roboto"
+                    android:onClick="checkBoxFunction"
                     android:text="Use Mood"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    tools:checked="false" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -105,7 +108,7 @@
                 android:orientation="horizontal">
 
                 <AutoCompleteTextView
-                    android:id="@+id/autoCompleteTextView4"
+                    android:id="@+id/editTextTextPersonName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -120,6 +123,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#00000000"
+                    android:onClick="fillRandomArtist"
                     app:srcCompat="@drawable/ic_round_shuffle_24" />
 
             </LinearLayout>
@@ -137,6 +141,7 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA76D"
                     android:fontFamily="@font/roboto"
+                    android:onClick="mashMe"
                     android:paddingLeft="30dp"
                     android:paddingRight="30dp"
                     android:text="MASH"
@@ -150,7 +155,7 @@
                 android:orientation="horizontal">
 
                 <AutoCompleteTextView
-                    android:id="@+id/autoCompleteTextView5"
+                    android:id="@+id/editTextTextPersonName2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -164,6 +169,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#00000000"
+                    android:onClick="fillRandomArtist2"
                     app:srcCompat="@drawable/ic_round_shuffle_24" />
             </LinearLayout>
         </LinearLayout>
