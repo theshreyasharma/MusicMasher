@@ -7,20 +7,24 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.util.Pair;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Random;
 
 import java.util.HashMap;
+import java.util.TreeMap;
+
 public class Mash extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +49,7 @@ public class Mash extends AppCompatActivity {
         textView2.setAdapter(adapter2);
     }
     public void updateCurrentMoodString(boolean mood) {
+        Log.d("tag", "control");
         Bundle b=this.getIntent().getExtras();
         String currentMood =b.getString("MOOD");
         String message = mood ? "Current Mood: "+currentMood : "No Current Mood";
@@ -82,32 +87,14 @@ public class Mash extends AppCompatActivity {
             startActivity(intent);
         }
     public void mashMe(View view) {
-        //HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
-        HashMap<String, ArrayList<Pair<String, String>>> map = new HashMap();
+        HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
 
         /**
          * To whomever wants to help me add artists,
          * add their key as ALL lowercase please.
          */
-
-        map.put("drake", new ArrayList<Pair<String, String>> (
-                Arrays.asList(new Pair<>("God's Plan", "upbeat"),
-                              new Pair<>("Way 2 Sexy", "confident"),
-                              new Pair<>("Toosie Slide", "upbeat"),
-                              new Pair<>("Know Yourself", "sad"),
-                              new Pair<>("One Dance", "upbeat"),
-                              new Pair<>("Laugh Now Cry Later", "sad")
-        )));
-
-        map.put("drake", new ArrayList<Pair<String, String>> (
-                Arrays.asList(new Pair<>("God's Plan", "upbeat"),
-                        new Pair<>("Way 2 Sexy", "confident"),
-                        new Pair<>("Toosie Slide", "upbeat"),
-                        new Pair<>("Know Yourself", "sad"),
-                        new Pair<>("One Dance", "upbeat"),
-                        new Pair<>("Laugh Now Cry Later", "sad")
-                )));
-
+        map.put("drake", new ArrayList<String>(
+                Arrays.asList("God's Plan", "Way 2 Sexy", "Toosie Slide", "Know Yourself", "One Dance", "Laugh Now Cry Later")));
         map.put("kanye west", new ArrayList<String>(
                 Arrays.asList("Praise God", "Flashing Lights", "Off the Grid", "Heartless")));
         map.put("taylor swift", new ArrayList<String>(
@@ -122,7 +109,6 @@ public class Mash extends AppCompatActivity {
                 Arrays.asList("All I want for Christmas is You", "We Belong Together", "Without You", "Always be My Baby", "Obsessed")));
         map.put("madonna", new ArrayList<String>(
                 Arrays.asList("Hung up", "Frozen ", "Hung up", "The Power of Goodbye")));
-
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName2);
         EditText artist1 = (EditText) findViewById(R.id.editTextTextPersonName);
         Log.d("artist", artist.getText().toString());
@@ -132,9 +118,32 @@ public class Mash extends AppCompatActivity {
         if(map.containsKey(artist.getText().toString().toLowerCase().trim())&& map.containsKey(artist1.getText().toString().toLowerCase().trim())) {
             songs1 = map.get(artist.getText().toString().toLowerCase().trim());
             songs2 = map.get(artist1.getText().toString().toLowerCase().trim());
+            String artomg = "";
+            String artomg2 = "";
+            for(String key : map.keySet())
+            {
+                if (key.toLowerCase().trim().compareToIgnoreCase( artist.getText().toString().toLowerCase().trim()) == 0)
+                {
+                    artomg  = key;
+
+                }
+
+            }
+            for(String key : map.keySet())
+            {
+                if (key.toLowerCase().trim().compareToIgnoreCase( artist1.getText().toString().toLowerCase().trim()) == 0)
+                {
+                    artomg2  = key;
+
+                }
+            }
+
             ArrayList<String> result = new ArrayList<String>();
             int bound = Math.min(songs1.size(), songs2.size());
             for (int i = 0; i < bound; i++) {
+
+
+
                 if (i%2 == 1) //odd
                 {
                     result.add(songs1.get(i) + " | " + artist.getText().toString().toLowerCase());
@@ -157,6 +166,7 @@ public class Mash extends AppCompatActivity {
             passToNewPage.putExtra("ARTIST1", artist.getText().toString().toLowerCase());
             passToNewPage.putExtra("ARTIST2", artist1.getText().toString().toLowerCase());
             startActivity(passToNewPage);
+            }
         }
         else
         {
