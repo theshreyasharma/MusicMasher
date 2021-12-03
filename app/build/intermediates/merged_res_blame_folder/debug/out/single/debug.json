@@ -8,6 +8,18 @@
         "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/generated/res/pngs/debug/drawable-mdpi/caret_right_svgrepo_com.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/build/intermediates/merged_res/debug/layout_mood_finder.xml.flat",
+        "source": "/Users/shreyasharma/AndroidStudioProjects/MusicMasher/app/src/main/res/layout/mood_finder.xml"
+=======
         "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_roundedentry.xml.flat",
         "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/roundedentry.xml"
     },
@@ -18,6 +30,7 @@
     {
         "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/drawable_password_icon.xml.flat",
         "source": "/Users/saketvissapragada/cs465git/MusicMasher/app/src/main/res/drawable/password_icon.xml"
+>>>>>>> d545b4ad9bac8cbe590105445cb6c90b3b6e7bf0
     },
     {
         "merged": "/Users/saketvissapragada/cs465git/MusicMasher/app/build/intermediates/merged_res/debug/font_montlight.ttf.flat",
