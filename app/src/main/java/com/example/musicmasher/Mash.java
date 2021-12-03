@@ -143,7 +143,7 @@ public class Mash extends AppCompatActivity {
         else
         {
             new AlertDialog.Builder(this)
-                    .setTitle("Error: Artist(s) not found")
+                    .setTitle("Artist(s) not found!")
                     .setMessage("Masher does not have data for one or more of the artists you entered. \n" +
                             "Try using the default ones!")
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
