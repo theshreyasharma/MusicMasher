@@ -17,13 +17,17 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Random;
 
 import java.util.TreeMap;
 
 public class Mash extends AppCompatActivity {
+    boolean mood = false;
+
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mash2);
@@ -76,14 +80,14 @@ public class Mash extends AppCompatActivity {
     }
 
     public void onClickProfile(View view) {
-            String mood = getIntent().getStringExtra("MOOD");
-            Intent intent = new Intent(view.getContext(), PFPActivity.class);
-            intent.putExtra("MOOD", mood);
-            startActivity(intent);
-        }
+        String mood = getIntent().getStringExtra("MOOD");
+        Intent intent = new Intent(view.getContext(), PFPActivity.class);
+        intent.putExtra("MOOD", mood);
+        startActivity(intent);
+    }
     public void mashMe(View view) {
-        Map<String, ArrayList<Pair<String, String>>> map =new TreeMap<>(String.CASE_INSENSITIVE_ORDER);;
-
+        Map<String, ArrayList<Pair<String, String>>> map =new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
+        String currentmood = "";
         /**
          * To whomever wants to help me add artists,
          * add their key as ALL lowercase please.
@@ -95,28 +99,28 @@ public class Mash extends AppCompatActivity {
                         new Pair<>("Know Yourself", "sad"),
                         new Pair<>("One Dance", "upbeat"),
                         new Pair<>("Laugh Now Cry Later", "sad")
-        )));
+                )));
         map.put("Kanye West", new ArrayList<Pair<String, String>> (
                 Arrays.asList(new Pair<>("Praise God", "upbeat"),
                         new Pair<>("Flashing Lights", "confident"),
                         new Pair<>("Jesus Walks", "upbeat"),
                         new Pair<>("Off the Grid", "sad"),
                         new Pair<>("Heartless", "angry")
-        )));
+                )));
         map.put("Taylor Swift", new ArrayList<Pair<String, String>> (
                 Arrays.asList(
-                    new Pair<>("Blank Space", "confident"),
-                    new Pair<>("Look What You Made Me Do", "upbeat"),
-                    new Pair<>("You Belong With Me", "upbeat"),
-                    new Pair<>("Bad Blood", "angry")
-        )));
+                        new Pair<>("Blank Space", "confident"),
+                        new Pair<>("Look What You Made Me Do", "upbeat"),
+                        new Pair<>("You Belong With Me", "upbeat"),
+                        new Pair<>("Bad Blood", "angry")
+                )));
         map.put("Ariana Grande", new ArrayList<Pair<String, String>> (
                 Arrays.asList(
                         new Pair<>("Thank you next", "confident"),
                         new Pair<>("God Is a Woman", "upbeat"),
                         new Pair<>("Rain on Me", "sad"),
                         new Pair<>("Bang Bang", "confident")
-        )));
+                )));
         map.put("Justin Bieber", new ArrayList<Pair<String, String>> (
                 Arrays.asList(
                         new Pair<>("Baby", "confident"),
@@ -125,7 +129,7 @@ public class Mash extends AppCompatActivity {
                         new Pair<>("Love Yourself ", "upbeat"),
                         new Pair<>("LONELY", "sad"),
                         new Pair<>("Mood", "angry")
-        )));
+                )));
         map.put("Adele", new ArrayList<Pair<String, String>> (
                 Arrays.asList(
                         new Pair<>("Easy on Me", "confident"),
@@ -133,7 +137,7 @@ public class Mash extends AppCompatActivity {
                         new Pair<>("Someone Like You", "sad"),
                         new Pair<>("Send My Love", "upbeat"),
                         new Pair<>("Set Fire to the Rain", "sad")
-        )));
+                )));
         map.put("Mariah Carey", new ArrayList<Pair<String, String>> (
                 Arrays.asList(
                         new Pair<>("All I want for Christmas is You", "upbeat"),
@@ -141,14 +145,14 @@ public class Mash extends AppCompatActivity {
                         new Pair<>("Without You", "sad"),
                         new Pair<>("Always be My Baby", "upbeat"),
                         new Pair<>( "Obsessed", "angry")
-        )));
+                )));
         map.put("Madonna", new ArrayList<Pair<String, String>> (
                 Arrays.asList(
                         new Pair<>("Like A Virgin", "upbeat"),
                         new Pair<>("Frozen" , "sad"),
                         new Pair<>("Hung up", "angry"),
                         new Pair<>("The Power of Goodbye", "confident")
-        )));
+                )));
 
         map.put("Mac Miller", new ArrayList<>(
                 Arrays.asList(
@@ -183,7 +187,7 @@ public class Mash extends AppCompatActivity {
                         new Pair<>("Sweet Creature", "upbeat"),
                         new Pair<>("She", "angry"),
                         new Pair<>("Two Ghosts", "sad"))
-                ));
+        ));
 
         map.put("Doja Cat", new ArrayList<>(
                 Arrays.asList(
@@ -196,7 +200,7 @@ public class Mash extends AppCompatActivity {
                         new Pair<>("Say So", "angry"),
                         new Pair<>("SCOOP", "upbeat"),
                         new Pair<>("Best Friend", "confident")
-        ));
+                )));
         map.put("Ed Sheeran", new ArrayList<>(
                 Arrays.asList(
                         new Pair<>("Perfect", "confident"),
@@ -223,6 +227,9 @@ public class Mash extends AppCompatActivity {
                         new Pair<>("Kevin's Heart", "sad"),
                         new Pair<>("Photograph", "sad"))
         ));
+
+
+
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName2);
         EditText artist1 = (EditText) findViewById(R.id.editTextTextPersonName);
         Log.d("artist", artist.getText().toString());
@@ -253,33 +260,83 @@ public class Mash extends AppCompatActivity {
             }
 
             ArrayList<String> result = new ArrayList<String>();
-            int bound = Math.min(songs1.size(), songs2.size());
-            for (int i = 0; i < bound; i++) {
 
+            if (mood)
+            {
 
+                Bundle b=this.getIntent().getExtras();
+                String currentMood =b.getString("MOOD");
 
-                if (i%2 == 1) //odd
+                for (int i = 0; i < songs1.size(); i++)
                 {
-                    result.add(songs1.get(i) + " | " + artomg);
+
+                    if (songs1.get(i).second.compareToIgnoreCase(currentMood)!=0)
+                    {
+                        songs1.remove(i);
+                    }
                 }
-                else
+
+                for (int i = 0; i < songs2.size(); i++)
                 {
-                    result.add(songs2.get(i) + " | " + artomg2);
 
+                    if (songs2.get(i).second.compareToIgnoreCase(currentMood)!=0)
+                    {
+                        songs2.remove(i);
+                    }     }
 
+        int bound = Math.min(songs1.size(), songs2.size());
+
+                for (int i = 0; i < bound; i++) {
+
+                    if (i % 2 == 1) //odd
+                    {
+
+                        result.add(songs1.get(i).first + " | " + artomg);
+                    } else {
+                        result.add(songs2.get(i).first + " | " + artomg2);
+
+                    }
+                }
+                    Log.d("Tag", result.toString());
+
+                    String mood = getIntent().getStringExtra("MOOD");
+                    String wow = result.toString();
+                    Bundle passMashed = new Bundle();
+                    Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
+                    passToNewPage.putExtra("MOOD", mood);
+                    passToNewPage.putExtra("LIST", result);
+                    passToNewPage.putExtra("ARTIST1", artomg);
+                    passToNewPage.putExtra("ARTIST2", artomg2);
+                    startActivity(passToNewPage);
                 }
 
-            Log.d("Tag", result.toString());
+            else
+            {
+                int bound = Math.min(songs1.size(), songs2.size());
 
-            String mood = getIntent().getStringExtra("MOOD");
-            String wow = result.toString();
-            Bundle passMashed = new Bundle();
-            Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
-            passToNewPage.putExtra("MOOD", mood);
-            passToNewPage.putExtra("LIST", result);
-            passToNewPage.putExtra("ARTIST1", artomg);
-            passToNewPage.putExtra("ARTIST2", artomg2);
-            startActivity(passToNewPage);
+                for (int i = 0; i < bound; i++) {
+
+
+                    if (i % 2 == 1) //odd
+                    {
+                        result.add(songs1.get(i).first + " | " + artomg);
+                    } else {
+                        result.add(songs2.get(i).first + " | " + artomg2);
+
+
+                    }
+                }
+                Log.d("Tag", result.toString());
+
+                String mood = getIntent().getStringExtra("MOOD");
+                String wow = result.toString();
+                Bundle passMashed = new Bundle();
+                Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
+                passToNewPage.putExtra("MOOD", mood);
+                passToNewPage.putExtra("LIST", result);
+                passToNewPage.putExtra("ARTIST1", artomg);
+                passToNewPage.putExtra("ARTIST2", artomg2);
+                startActivity(passToNewPage);
             }
         }
         else
@@ -290,7 +347,7 @@ public class Mash extends AppCompatActivity {
                             "Try using the default ones!")
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
-                        //idk maybe we autopopultate?
+                            //idk maybe we autopopultate?
                         }
                     })
                     .setNegativeButton(android.R.string.no, null)
@@ -299,9 +356,8 @@ public class Mash extends AppCompatActivity {
         }
     }
     public void checkBoxFunction(View view) {
-        boolean mood = true;
         Switch cb1 = (Switch) findViewById(R.id.switch1);
-        mood = cb1.isChecked() ? false: true;
+        mood = cb1.isChecked() ? true: false;
         updateCurrentMoodString(mood);
 
 
