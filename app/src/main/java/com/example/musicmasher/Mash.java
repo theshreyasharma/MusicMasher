@@ -313,19 +313,8 @@ public class Mash extends AppCompatActivity {
                     passToNewPage.putExtra("ARTIST1", artomg);
                     passToNewPage.putExtra("ARTIST2", artomg2);
                     passToNewPage.putExtra("USERNAME", getIntent().getStringExtra("USERNAME"));
-
-                startActivity(passToNewPage);
+                    startActivity(passToNewPage);
                 }
-                String mood = getIntent().getStringExtra("MOOD");
-                String wow = result.toString();
-                Bundle passMashed = new Bundle();
-                Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
-                passToNewPage.putExtra("MOOD", mood);
-                passToNewPage.putExtra("LIST", result);
-                passToNewPage.putExtra("ARTIST1", artomg);
-                passToNewPage.putExtra("ARTIST2", artomg2);
-                startActivity(passToNewPage);
-            }
 
             else
             {
