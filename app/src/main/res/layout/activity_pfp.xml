@@ -1,78 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#a4cce3">
+    android:background="#a4cce3"
+    android:paddingLeft="10dp"
+    android:paddingTop="15dp">
 
-    <Button
+    <ImageView
         android:id="@+id/sign_out"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#00FFFFFF"
-        android:drawableLeft="@drawable/caret_left_svgrepo_com"
-        android:elevation="0dp"
-        android:fontFamily="@font/roboto"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:clickable="false"
         android:onClick="signOut"
-        android:text="sign out"
-        android:textAllCaps="false"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:iconPadding="2dp" />
+        android:paddingLeft="5dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/signout"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/username_cardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/username_cardView"
+        android:layout_below="@id/sign_out"
         android:layout_margin="20dp"
-        app:cardCornerRadius="10dp"
-        android:layout_below="@id/sign_out">
+        app:cardCornerRadius="10dp">
+
         <LinearLayout
+            android:id="@+id/wrap"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/wrap"
             android:orientation="vertical">
+
             <LinearLayout
+                android:id="@+id/username_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:id="@+id/username_container"
                 android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
                 android:paddingTop="25dp">
+
                 <View
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_weight="1"></View>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:src="@drawable/usericon"
-                    android:layout_weight="0.5"
                     android:layout_gravity="center_vertical"
-                    >
-                </ImageView>
+                    android:layout_weight="0.5"
+                    android:src="@drawable/usericon"></ImageView>
+
                 <TextView
                     android:id="@+id/username"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/user_name"
-                    android:textSize="44sp"
-                    android:layout_weight="2"
                     android:layout_gravity="center_vertical"
-                    android:textColor="#2a2a2a"/>
+                    android:layout_weight="2"
+                    android:text="@string/user_name"
+                    android:textColor="#2a2a2a"
+                    android:textSize="44sp" />
             </LinearLayout>
+
             <TextView
                 android:id="@+id/current_mood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Current Mood: [Var]"
-                android:gravity="center"
-                android:textSize="24sp"
-                android:textStyle="italic"
                 android:layout_below="@id/username_container"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="Current Mood: [Var]"
                 android:textColor="#4a4a4a"
-                android:paddingBottom="20dp"/>
+                android:textSize="24sp"
+                android:textStyle="italic" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -83,9 +85,9 @@
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_below="@id/username_cardView"
+        android:layout_marginTop="25dp"
         android:orientation="horizontal"
         android:paddingLeft="10dp"
-        android:layout_marginTop="25dp"
         android:paddingRight="10dp">
 
         <Button
@@ -112,21 +114,21 @@
         android:id="@+id/recap_heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Weekly Recap"
-        android:gravity="center"
-        android:layout_marginTop="30dp"
-        android:textSize="24sp"
-        android:textStyle="bold"
         android:layout_below="@id/button_group"
-        android:textColor="#2a2a2a"/>
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Weekly Recap"
+        android:textColor="#2a2a2a"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
     <androidx.cardview.widget.CardView
+        android:id="@+id/recap_cardview"
         android:layout_width="fill_parent"
         android:layout_height="225dp"
         android:layout_below="@id/recap_heading"
         android:layout_margin="20dp"
-        app:cardCornerRadius="10dp"
-        android:id="@+id/recap_cardview"
-        >
+        app:cardCornerRadius="10dp">
 
         <ListView
             android:id="@+id/recap_list"
@@ -138,19 +140,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@id/recap_cardview">
+        android:layout_below="@id/recap_cardview"
+        android:orientation="vertical">
+
         <Button
             android:id="@+id/listening_history"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:text="listening history"
             android:backgroundTint="#FFA76D"
-            android:textColor="#2a2a2a"/>
+            android:text="listening history"
+            android:textColor="#2a2a2a" />
     </LinearLayout>
-
 
 
 </RelativeLayout>

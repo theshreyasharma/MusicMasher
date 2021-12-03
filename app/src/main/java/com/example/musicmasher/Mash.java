@@ -87,7 +87,7 @@ public class Mash extends AppCompatActivity {
             startActivity(intent);
         }
     public void mashMe(View view) {
-        Map<String, ArrayList<Pair<String, String>>> map = new TreeMap<String, ArrayList<Pair<String, String>>>(String.CASE_INSENSITIVE_ORDER);;
+        Map<String, ArrayList<String>> map =new TreeMap<String, ArrayList<String>>(String.CASE_INSENSITIVE_ORDER);;
 
         /**
          * To whomever wants to help me add artists,
@@ -157,8 +157,8 @@ public class Mash extends AppCompatActivity {
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName2);
         EditText artist1 = (EditText) findViewById(R.id.editTextTextPersonName);
         Log.d("artist", artist.getText().toString());
-        ArrayList<String> songs1 = null;
-        ArrayList<String> songs2 = null;
+        ArrayList<Pair<String, String>> songs1 = null;
+        ArrayList<Pair<String, String>> songs2 = null;
 
         if(map.containsKey(artist.getText().toString().toLowerCase().trim())&& map.containsKey(artist1.getText().toString().toLowerCase().trim())) {
             songs1 = map.get(artist.getText().toString().toLowerCase().trim());
