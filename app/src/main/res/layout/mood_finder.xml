@@ -21,7 +21,8 @@
 
             <Button
                 android:id="@+id/profile"
-                android:layout_width="match_parent"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00FFFFFF"
                 android:drawableLeft="@drawable/caret_left_svgrepo_com"
@@ -30,7 +31,8 @@
                 android:text="profile"
                 android:textAllCaps="false"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textSize="18sp"
+                app:iconPadding="2dp" />
 
         </LinearLayout>
 
