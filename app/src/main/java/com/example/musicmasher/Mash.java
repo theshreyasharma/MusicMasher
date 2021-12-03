@@ -7,10 +7,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.Pair;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -18,7 +18,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Locale;
 import java.util.Random;
 
 import java.util.HashMap;
@@ -83,14 +82,32 @@ public class Mash extends AppCompatActivity {
             startActivity(intent);
         }
     public void mashMe(View view) {
-        HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
+        //HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
+        HashMap<String, ArrayList<Pair<String, String>>> map = new HashMap();
 
         /**
          * To whomever wants to help me add artists,
          * add their key as ALL lowercase please.
          */
-        map.put("drake", new ArrayList<String>(
-                Arrays.asList("God's Plan", "Way 2 Sexy", "Toosie Slide", "Know Yourself", "One Dance", "Laugh Now Cry Later")));
+
+        map.put("drake", new ArrayList<Pair<String, String>> (
+                Arrays.asList(new Pair<>("God's Plan", "upbeat"),
+                              new Pair<>("Way 2 Sexy", "confident"),
+                              new Pair<>("Toosie Slide", "upbeat"),
+                              new Pair<>("Know Yourself", "sad"),
+                              new Pair<>("One Dance", "upbeat"),
+                              new Pair<>("Laugh Now Cry Later", "sad")
+        )));
+
+        map.put("drake", new ArrayList<Pair<String, String>> (
+                Arrays.asList(new Pair<>("God's Plan", "upbeat"),
+                        new Pair<>("Way 2 Sexy", "confident"),
+                        new Pair<>("Toosie Slide", "upbeat"),
+                        new Pair<>("Know Yourself", "sad"),
+                        new Pair<>("One Dance", "upbeat"),
+                        new Pair<>("Laugh Now Cry Later", "sad")
+                )));
+
         map.put("kanye west", new ArrayList<String>(
                 Arrays.asList("Praise God", "Flashing Lights", "Off the Grid", "Heartless")));
         map.put("taylor swift", new ArrayList<String>(
@@ -105,6 +122,7 @@ public class Mash extends AppCompatActivity {
                 Arrays.asList("All I want for Christmas is You", "We Belong Together", "Without You", "Always be My Baby", "Obsessed")));
         map.put("madonna", new ArrayList<String>(
                 Arrays.asList("Hung up", "Frozen ", "Hung up", "The Power of Goodbye")));
+
         EditText artist = (EditText) findViewById(R.id.editTextTextPersonName2);
         EditText artist1 = (EditText) findViewById(R.id.editTextTextPersonName);
         Log.d("artist", artist.getText().toString());
