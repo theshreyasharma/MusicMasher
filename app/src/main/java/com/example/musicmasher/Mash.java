@@ -51,15 +51,13 @@ public class Mash extends AppCompatActivity {
         Log.d("tag", "control");
         Bundle b=this.getIntent().getExtras();
         String currentMood =b.getString("MOOD");
-        String message = mood ? "Current Mood: "+currentMood : "No Current Mood";
+        String message = "Current Mood: "+ currentMood;
         TextView currentMood2 = (TextView) findViewById(R.id.textView3);
         if (mood)
         {
-            currentMood2.setTextSize(25);
             currentMood2.setText(message);
         }
         else {
-            currentMood2.setTextSize(25);
             currentMood2.setText(message);
         }
     }
@@ -261,54 +259,60 @@ public class Mash extends AppCompatActivity {
 
             ArrayList<String> result = new ArrayList<String>();
 
-            if (mood)
+            if (mood == true)
             {
 
                 Bundle b=this.getIntent().getExtras();
-                String currentMood =b.getString("MOOD");
+                String currentMoodGODDAMN = b.getString("MOOD");
+                Log.d("currentMoodinControl", currentMoodGODDAMN);
+                Log.d("songs1", songs1.toString());
+                Log.d("songs1", songs2.toString());
+                ArrayList<String> result1 = new ArrayList<String>();
+                ArrayList<String> result2 = new ArrayList<String>();
+
 
                 for (int i = 0; i < songs1.size(); i++)
                 {
 
-                    if (songs1.get(i).second.compareToIgnoreCase(currentMood)!=0)
+                    if (songs1.get(i).second.compareToIgnoreCase( currentMoodGODDAMN.trim()) ==0)
                     {
-                        songs1.remove(i);
+
+                        result1.add(songs1.get(i).first);
                     }
                 }
 
                 for (int i = 0; i < songs2.size(); i++)
                 {
-
-                    if (songs2.get(i).second.compareToIgnoreCase(currentMood)!=0)
+                    if (songs2.get(i).second.compareToIgnoreCase( currentMoodGODDAMN) ==0)
                     {
-                        songs2.remove(i);
-                    }     }
+                        result2.add(songs2.get(i).first);
+                    }
+                }
 
-        int bound = Math.min(songs1.size(), songs2.size());
+                int bound = Math.min(result1.size(), result2.size());
 
                 for (int i = 0; i < bound; i++) {
 
                     if (i % 2 == 1) //odd
                     {
-
-                        result.add(songs1.get(i).first + " | " + artomg);
+                        result.add(result1.get(i) + " | " + artomg);
                     } else {
-                        result.add(songs2.get(i).first + " | " + artomg2);
+                        result.add(result2.get(i) + " | " + artomg2);
 
                     }
                 }
-                    Log.d("Tag", result.toString());
+                Log.d("Tag", result.toString());
 
-                    String mood = getIntent().getStringExtra("MOOD");
-                    String wow = result.toString();
-                    Bundle passMashed = new Bundle();
-                    Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
-                    passToNewPage.putExtra("MOOD", mood);
-                    passToNewPage.putExtra("LIST", result);
-                    passToNewPage.putExtra("ARTIST1", artomg);
-                    passToNewPage.putExtra("ARTIST2", artomg2);
-                    startActivity(passToNewPage);
-                }
+                String mood = getIntent().getStringExtra("MOOD");
+                String wow = result.toString();
+                Bundle passMashed = new Bundle();
+                Intent passToNewPage = new Intent(view.getContext(), PlaylistGenerated.class);
+                passToNewPage.putExtra("MOOD", mood);
+                passToNewPage.putExtra("LIST", result);
+                passToNewPage.putExtra("ARTIST1", artomg);
+                passToNewPage.putExtra("ARTIST2", artomg2);
+                startActivity(passToNewPage);
+            }
 
             else
             {

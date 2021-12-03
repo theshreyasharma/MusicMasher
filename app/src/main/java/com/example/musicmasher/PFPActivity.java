@@ -42,7 +42,11 @@ public class PFPActivity extends AppCompatActivity {
 
         //set current Mood text
         TextView currentMood = findViewById(R.id.current_mood);
-        currentMood.setText("Current  Mood: " + mood);
+        if (mood == null) {
+            currentMood.setText("Current  Mood: None");
+        } else {
+            currentMood.setText("Current  Mood: " + mood);
+        }
         //populate recap list w/ hardcoded data
         lv = findViewById(R.id.recap_list);
         ArrayAdapter<String> lv_arr;
