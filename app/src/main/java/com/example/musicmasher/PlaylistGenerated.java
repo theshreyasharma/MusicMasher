@@ -25,6 +25,11 @@ public class PlaylistGenerated extends AppCompatActivity {
         setContentView(R.layout.playlist_generated);
 
         String mood = getIntent().getStringExtra("MOOD");
+
+        //set current Mood text
+        TextView currentMood = findViewById(R.id.textView13);
+        currentMood.setText("Current  Mood: " + mood);
+
         ArrayList<String> listPass = getIntent().getStringArrayListExtra("LIST");
         String artist1 = getIntent().getStringExtra("ARTIST1");
         String artist2 = getIntent().getStringExtra("ARTIST2");

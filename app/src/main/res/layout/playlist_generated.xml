@@ -19,6 +19,7 @@
 
             <Button
                 android:id="@+id/profile5"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00FFFFFF"
@@ -27,7 +28,8 @@
                 android:text="profile"
                 android:textAllCaps="false"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                app:iconPadding="2dp" />
 
         </LinearLayout>
 
@@ -49,11 +51,22 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/open_sans"
                     android:gravity="center"
-                    android:padding="40dp"
+                    android:padding="15dp"
                     android:text="Drake x Kanye West"
                     android:textAlignment="center"
                     android:textColor="#000000"
-                    android:textSize="48sp" />
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:text="Current Mood: [Var]"
+                    android:textColor="#4a4a4a"
+                    android:textSize="16dp" />
 
                 <ListView
                     android:id="@+id/playlistgenerated"
