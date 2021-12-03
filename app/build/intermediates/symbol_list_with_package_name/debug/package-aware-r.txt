@@ -1837,7 +1837,8 @@ id async
 id auto
 id autoComplete
 id autoCompleteText
-id autoCompleteTextView2
+id autoCompleteTextView4
+id autoCompleteTextView5
 id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
@@ -1850,7 +1851,7 @@ id bounce
 id button
 id button2
 id button3
-id button4
+id button6
 id buttonPanel
 id button_first
 id button_group
@@ -1963,6 +1964,8 @@ id ignoreRequest
 id image
 id imageButton2
 id imageButton4
+id imageButton7
+id imageButton8
 id imageLeft
 id imageLeft2
 id imageRightMost
@@ -2742,6 +2745,7 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style MySwitch
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
